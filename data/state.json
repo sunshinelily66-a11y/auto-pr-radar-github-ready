@@ -1,5 +1,431 @@
 {
-  "seen": {},
-  "delivered": [],
-  "last_run": null
+  "seen": {
+    "1df7588a6092df8a": {
+      "title": "中国车包围俄罗斯市场，前十榜单占据7个席位 中国汽车品牌在俄罗斯销量前十榜单中占据了7个席位。 5 33036 10小时前",
+      "url": "https://www.yicai.com/news/103316095.html",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "608e8ad84d1a8634": {
+      "title": "新能源汽车迎来两个“首次”突破",
+      "url": "https://www.miit.gov.cn/xwfb/mtbd/wzbd/art/2026/art_32f502bac6da4c7a904cf526ac1ebedb.html",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "291da9cdad5a38be": {
+      "title": "两大历史性突破！新能源汽车月度新车销量占比首超60%，前7月累计占比首次过半",
+      "url": "https://www.nbd.com.cn/articles/2026-08-12/4539850.html",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "1d1b46a53a7952a7": {
+      "title": "代步车市场大洗牌，微型车销量暴跌55%，车企集体「加长」逃离A00级市场",
+      "url": "https://www.36kr.com/p/3933776459323264",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "7dabfae6eea3700a": {
+      "title": "财联社汽车早报【8月13日】",
+      "url": "https://www.cls.cn/detail/2453011",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "c8c309d2b94194d8": {
+      "title": "丰田拼命加速，中国偏要踩下刹车——中日汽车产业启动双向奔赴",
+      "url": "https://www.36kr.com/p/3934419594427777",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "6e3222e3f970bc42": {
+      "title": "大众酝酿把中国新能源车卖到欧洲？多家欧洲车企加速践行“在中国，为世界”",
+      "url": "https://www.nbd.com.cn/articles/2026-08-12/4539565.html",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "b9a6d1117079a998": {
+      "title": "收入接近翻倍、亏损大幅收窄！希迪智驾交出上市后首份半年报，无人矿卡赛道进入商业模式比拼阶段",
+      "url": "https://www.nbd.com.cn/articles/2026-08-12/4539465.html",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "d9286d78e03adcbe": {
+      "title": "单季盈利38亿日元，14个月卖出10万辆新能源，日产被“中国速度”重塑？",
+      "url": "https://www.36kr.com/p/3933585401068672",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "41fdad3879f6d299": {
+      "title": "财联社汽车早报【8月12日】",
+      "url": "https://www.cls.cn/detail/2451879",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "1eac09ddcab30b4d": {
+      "title": "零跑创始人谈造车：已越过最难熬的节点 国内车市销量下滑已经超过20%，朱江明这样的表态，具有一定的风向标意义。 9 15800 10小时前",
+      "url": "https://www.yicai.com/news/103315593.html",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "633d9248add1d810": {
+      "title": "汽车早报｜7月新能源汽车新车销量占比首超60% 长安汽车与华为签署战略合作框架协议",
+      "url": "https://www.jiemian.com/article/14914890.html",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "c64078aba292829a": {
+      "title": "中国汽车出海，为什么必须拿下高端？",
+      "url": "https://www.36kr.com/p/3936258288785032",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "df1b8a9f217f5947": {
+      "title": "尊界：书写豪华汽车领域的精彩答卷",
+      "url": "https://www.news.cn/auto/20260811/6c4869db365b45e7999535ecfd824330/c.html",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "986cb7c4712ff208": {
+      "title": "一款车型竟有10个全球第一？警惕激进营销卷土重来｜琳机一动 激进营销何时止？ 7 13134 昨天 20:47",
+      "url": "https://www.yicai.com/news/103315542.html",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "70643068d095e693": {
+      "title": "财联社汽车早报【8月11日】",
+      "url": "https://www.cls.cn/detail/2450758",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "c4458d52cb5a7bad": {
+      "title": "降价1200万元还是没人要！哪吒汽车南宁工厂设备二次流拍， 专家：国内车市生产设备实际需求走弱",
+      "url": "https://www.nbd.com.cn/articles/2026-08-13/4540801.html",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "bbab3e382244834d": {
+      "title": "岚图卢放：开发时间短，不等于“速成车”；中国长安汽车与华为签署战略合作框架协议 | 汽车早参",
+      "url": "https://www.nbd.com.cn/articles/2026-08-12/4539730.html",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "5416279a46b99d56": {
+      "title": "2026年，与汽车毫不相干的业态，相继进入曾经只属于汽车的空间",
+      "url": "https://www.36kr.com/p/3935051417818758",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "3e60d7e67623c724": {
+      "title": "零跑汽车推出全新A平台第二款全球化车型A05 6.39万元起",
+      "url": "https://www.news.cn/auto/20260812/ceaa28945853456a9a3b7b93cd6d6e47/c.html",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "02bb1ca999990c2c": {
+      "title": "Electric Cars",
+      "url": "https://www.theverge.com/electric-cars",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "8ad15c30375500ad": {
+      "title": "江苏以“苏超”串起完整消费链条",
+      "url": "https://www.jiangsu.gov.cn/art/2026/8/13/art_60095_11815647.html",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "0fa31d90eb039e8b": {
+      "title": "东风汽车在央企品牌建设对标中实现新突破",
+      "url": "https://www.news.cn/auto/20260811/fb47aa32b1f744ec838abf8c7dc0712e/c.html",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "95d2f03c96cc48a5": {
+      "title": "Rivian CEO RJ Scaringe is betting on EVs, robots, and autonomy all at once — he’ll explain why at Disrupt 2026",
+      "url": "https://techcrunch.com/2026/08/11/rivian-ceo-rj-scaringe-is-betting-on-evs-robots-and-autonomy-all-at-once-hell-explain-why-at-disrupt-2026/",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "12c3423d19ce7ad8": {
+      "title": "走进赛力斯",
+      "url": "https://www.seres.cn/p/company.html",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "43b048889b932c00": {
+      "title": "All Media sets",
+      "url": "https://www.audi-mediacenter.com/en/presskits",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "170b94cfe73f2d05": {
+      "title": "Electric vehicles",
+      "url": "https://www.ft.com/electric-vehicles",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "c9666ea04c6ac6e8": {
+      "title": "Autonomous Cars",
+      "url": "https://www.theverge.com/autonomous-cars",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "1a65e2f8887ff24f": {
+      "title": "Commercial Vehicles",
+      "url": "https://www.bydglobal.com/en/CommercialVehicle.html",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "249e6c049ec24b93": {
+      "title": "艾睿铂：预计将仅有7家汽车公司到2030年实现盈亏平衡",
+      "url": "https://www.jiemian.com/article/14672110.html",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "a95cd032fe4997c3": {
+      "title": "湖南长沙县以“八个一”组合拳守护网络餐饮安全",
+      "url": "https://www.samr.gov.cn/xw/df/art/2026/art_6d8db21d88c0424eb55eacbdb2f858d2.html",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "9bedc00294814729": {
+      "title": "Individuality down to the last detail: a Taycan Turbo GT like no other",
+      "url": "https://newsroom.porsche.com/en/2026/products/porsche-taycan-turbo-gt-sonderwunsch-nordicgoldmetallic-42868.html",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "11be9a7d81ab1e26": {
+      "title": "Jaguar offers a first look inside the all-electric Type 01",
+      "url": "https://www.theverge.com/transportation/978793/jaguar-type-01-interior",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "4e55abc26835c18a": {
+      "title": "《道路机动车辆生产企业及产品》（第409批）、《享受车船税减免优惠的节约能源 使用新能源汽车车型目录》（第八十八批）、《减免车辆购置税的新能源汽车车型目录》（第三十三批）",
+      "url": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/gg/art/2026/art_00d965bfa9ea4bc89bc7613cf911c896.html",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "b5c6d2435e1137d5": {
+      "title": "一批重要国家标准发布 涉及高新技术领域、传统产业、安全生产等",
+      "url": "https://www.samr.gov.cn/xw/mtjj/art/2026/art_292985eea90d4039a4a51cfdc9071db5.html",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "1038df13a88384f5": {
+      "title": "Richie Rich another $1 trillion richer",
+      "url": "https://www.theverge.com/business/977768/elon-musks-shortcut-to-a-1-trillion-payday",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "86460d40ecb3e3c1": {
+      "title": "2026年7月汽车工业经济运行情况",
+      "url": "https://www.miit.gov.cn/gxsj/tjfx/zbgy/qc/art/2026/art_f26452ab967e4a4ebc41adfb147e6436.html",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "afa6d0e3f70ac1f8": {
+      "title": "Geely Auto Leads China's Auto Market for Two Consecutive Months, Achieves Robust Growth at Home and Abroad in February On March 1, Geely Auto released its latest sales figures: passenger vehicle global sales reached 206,160 units in February, maintaining year-on-year growth for two consecutive months at the start of the year.",
+      "url": "https://global.geely.com/undefined/news/2026/geely-auto-february-sales-2026",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "bebc7e434af41679": {
+      "title": "Audi RS 5 Sedan: Fuel consumption (weighted combined): 4.3–3.8 l/100 km; electric power consumption (weighted combined): 18.4–17.7 kWh/100 km; CO 2 emissions (weighted combined): 98–86 g/km; CO 2 classes (weighted combined): C–B; fuel consumption with a discharged battery (combined): 10.0–9.5 l/100 km; CO 2 class with a discharged battery: G August 27, 2026 Audi Driving Experience - Performance RS 5 , Neuburg an der Donau, Germany",
+      "url": "https://www.audi-mediacenter.com/en/experience-audi-18104",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "b3b275b5156a83a2": {
+      "title": "Vehicle safety",
+      "url": "https://www.audi-mediacenter.com/en/vehicle-safety-17223",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "1656b3e8cfbdf3a3": {
+      "title": "北汽集团上半年累计销量79.5万辆，自主品牌同比增长14.2%",
+      "url": "https://www.jiemian.com/article/14750611.html",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "6dce4b36501543a9": {
+      "title": "The Cayenne Electric",
+      "url": "https://newsroom.porsche.com/en/products/cayenne/cayenne-electric.html",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "3dd2ca0255d1a3a1": {
+      "title": "【国际】7月全球电动汽车销量增长9%",
+      "url": "https://auto.gasgoo.com/news/202608/13I70469188C501.shtml",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "841e6ed2968c83c6": {
+      "title": "现代汽车计划2027年推出全新途胜，设计风格更硬朗并聚焦电气化动力系统",
+      "url": "https://auto.gasgoo.com/news/202608/13I70468829C101.shtml",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "e6b7d82c4c392f79": {
+      "title": "2025中国汽车流通行业经销商百强排行榜",
+      "url": "https://www.cada.cn/VIP/info_40_10418.html",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "6ff2656d7ec0b487": {
+      "title": "Geely Unveils Full-Domain AI 2.0 Vision at Auto China 2026 Showcasing Geely Galaxy Light, Lynk & Co GT Vision, Zeekr hyper-SUVs, and the production-ready Eva Cab robotaxi prototype to 1000+ global partners",
+      "url": "https://global.geely.com/undefined/news/2026/geely-full-domain-ai-auto-china-2026",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "7dc795c96d3a73ca": {
+      "title": "廉政举报渠道",
+      "url": "https://www.seres.cn/p/contact.html",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "b21d8d03f003fa74": {
+      "title": "All articles for BMW M Cars",
+      "url": "https://www.press.bmwgroup.com/global/article/search/tag:124",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "edfb8f9697cc4a09": {
+      "title": "内蒙古启动“守护一日三餐”食品安全三年专项整治",
+      "url": "https://www.samr.gov.cn/xw/df/art/2026/art_07ac67e65d684a0f869b5c30af83b3f3.html",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "e6655dd792ff23ff": {
+      "title": "阿维塔 012 限量联名版 未来智能豪华轿车 ￥ 700,000",
+      "url": "https://www.avatr.com/012",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "78104e101f09ffc3": {
+      "title": "书香赋能 | 盖世集团CEO周晓莺出席汽车创新港读书会，分享《汽车出海》实践与策略",
+      "url": "https://auto.gasgoo.com/news/202608/13I70469208C106.shtml",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "b9e685f5d7e4f232": {
+      "title": "共探全球新机遇丨巴西大众CEO携核心管理层再次到访盖世汽车",
+      "url": "https://auto.gasgoo.com/news/202608/13I70469210C106.shtml",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "182649e32aa7cef0": {
+      "title": "某中国品牌插电式混动新能源乘用车试驾体验",
+      "url": "https://auto.gasgoo.com/news/202608/13I70469223C501.shtml",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "181e5ce128bbc10e": {
+      "title": "缺陷产品 召回查询",
+      "url": "http://qxzh.samr.gov.cn/qxzh/qxxxcx/web.jsp",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "d53e8136d8219bd2": {
+      "title": "理事单位-二手车经销商分会",
+      "url": "https://www.cada.cn/liebiao/info_82_8741.html",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "f602bac250e43a8f": {
+      "title": "Sales, Production, and Export Results",
+      "url": "https://global.toyota/en/company/profile/production-sales-figures/?padid=ag478_from_news_pickup2",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "27312b416e7c7a84": {
+      "title": "中国汽车能源消耗量查询",
+      "url": "https://yhgscx.miit.gov.cn/",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "4b9549ba63fbb49e": {
+      "title": "Innovation at BYD",
+      "url": "https://www.bydglobal.com/en/InnovationByd.html",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "34dfa9428c9c17e7": {
+      "title": "全国食品安全内部 知情人举报系统",
+      "url": "https://spjb.samr.gov.cn/",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "82a1750f5ab99b12": {
+      "title": "合作与加盟",
+      "url": "https://www.avatr.com/invite",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    },
+    "f7caf0028dad316a": {
+      "title": "北京市小客车指标调控管理信息系统",
+      "url": "https://xkczb.jtw.beijing.gov.cn/",
+      "seen_at": "2026-08-13T18:37:37.074998+08:00"
+    }
+  },
+  "delivered": [
+    {
+      "item_id": "1df7588a6092df8a",
+      "title": "中国车包围俄罗斯市场，前十榜单占据7个席位 中国汽车品牌在俄罗斯销量前十榜单中占据了7个席位。 5 33036 10小时前",
+      "url": "https://www.yicai.com/news/103316095.html",
+      "event_key": "中国品牌|俄罗斯市场销量前十占七席|2026年7月",
+      "delivered_on": "2026-08-13"
+    },
+    {
+      "item_id": "608e8ad84d1a8634",
+      "title": "新能源汽车迎来两个“首次”突破",
+      "url": "https://www.miit.gov.cn/xwfb/mtbd/wzbd/art/2026/art_32f502bac6da4c7a904cf526ac1ebedb.html",
+      "event_key": "新能源汽车|月度销量占比首超60%及累计占比过半|2026年7月",
+      "delivered_on": "2026-08-13"
+    },
+    {
+      "item_id": "291da9cdad5a38be",
+      "title": "两大历史性突破！新能源汽车月度新车销量占比首超60%，前7月累计占比首次过半",
+      "url": "https://www.nbd.com.cn/articles/2026-08-12/4539850.html",
+      "event_key": "新能源汽车|月度销量占比首超60%及出口高增长|2026年7月",
+      "delivered_on": "2026-08-13"
+    },
+    {
+      "item_id": "1d1b46a53a7952a7",
+      "title": "代步车市场大洗牌，微型车销量暴跌55%，车企集体「加长」逃离A00级市场",
+      "url": "https://www.36kr.com/p/3933776459323264",
+      "event_key": "A00级车|销量暴跌55%|2026年上半年",
+      "delivered_on": "2026-08-13"
+    },
+    {
+      "item_id": "7dabfae6eea3700a",
+      "title": "财联社汽车早报【8月13日】",
+      "url": "https://www.cls.cn/detail/2453011",
+      "event_key": "新能源汽车|月度销量占比首超60%|2026年7月",
+      "delivered_on": "2026-08-13"
+    },
+    {
+      "item_id": "e6b7d82c4c392f79",
+      "title": "2025中国汽车流通行业经销商百强排行榜",
+      "url": "https://www.cada.cn/VIP/info_40_10418.html",
+      "event_key": "||2025中国汽车流通行业经销商百强排行榜",
+      "delivered_on": "2026-08-13"
+    },
+    {
+      "item_id": "d53e8136d8219bd2",
+      "title": "理事单位-二手车经销商分会",
+      "url": "https://www.cada.cn/liebiao/info_82_8741.html",
+      "event_key": "||理事单位 二手车经销商分会",
+      "delivered_on": "2026-08-13"
+    },
+    {
+      "item_id": "12c3423d19ce7ad8",
+      "title": "走进赛力斯",
+      "url": "https://www.seres.cn/p/company.html",
+      "event_key": "SERES|纯电|走进赛力斯",
+      "delivered_on": "2026-08-13"
+    },
+    {
+      "item_id": "43b048889b932c00",
+      "title": "All Media sets",
+      "url": "https://www.audi-mediacenter.com/en/presskits",
+      "event_key": "Audi|纯电|all media sets",
+      "delivered_on": "2026-08-13"
+    },
+    {
+      "item_id": "1a65e2f8887ff24f",
+      "title": "Commercial Vehicles",
+      "url": "https://www.bydglobal.com/en/CommercialVehicle.html",
+      "event_key": "BYD|纯电|commercial vehicles",
+      "delivered_on": "2026-08-13"
+    },
+    {
+      "item_id": "9bedc00294814729",
+      "title": "Individuality down to the last detail: a Taycan Turbo GT like no other",
+      "url": "https://newsroom.porsche.com/en/2026/products/porsche-taycan-turbo-gt-sonderwunsch-nordicgoldmetallic-42868.html",
+      "event_key": "Porsche|纯电|individuality down to the last detail a taycan turbo gt like no other",
+      "delivered_on": "2026-08-13"
+    },
+    {
+      "item_id": "afa6d0e3f70ac1f8",
+      "title": "Geely Auto Leads China's Auto Market for Two Consecutive Months, Achieves Robust Growth at Home and Abroad in February On March 1, Geely Auto released its latest sales figures: passenger vehicle global sales reached 206,160 units in February, maintaining year-on-year growth for two consecutive months at the start of the year.",
+      "url": "https://global.geely.com/undefined/news/2026/geely-auto-february-sales-2026",
+      "event_key": "Geely|市场|geely auto leads china s auto market for two consecutive months achieves robust growth at ",
+      "delivered_on": "2026-08-13"
+    },
+    {
+      "item_id": "c8c309d2b94194d8",
+      "title": "丰田拼命加速，中国偏要踩下刹车——中日汽车产业启动双向奔赴",
+      "url": "https://www.36kr.com/p/3934419594427777",
+      "event_key": "丰田|加速追赶中国速度与中方监管加严|2026年7-8月",
+      "delivered_on": "2026-08-13"
+    },
+    {
+      "item_id": "6e3222e3f970bc42",
+      "title": "大众酝酿把中国新能源车卖到欧洲？多家欧洲车企加速践行“在中国，为世界”",
+      "url": "https://www.nbd.com.cn/articles/2026-08-12/4539565.html",
+      "event_key": "大众|评估中国产车型出口欧洲|2026年8月",
+      "delivered_on": "2026-08-13"
+    },
+    {
+      "item_id": "b9a6d1117079a998",
+      "title": "收入接近翻倍、亏损大幅收窄！希迪智驾交出上市后首份半年报，无人矿卡赛道进入商业模式比拼阶段",
+      "url": "https://www.nbd.com.cn/articles/2026-08-12/4539465.html",
+      "event_key": "希迪智驾|上市后首份半年报|2026年上半年",
+      "delivered_on": "2026-08-13"
+    },
+    {
+      "item_id": "d9286d78e03adcbe",
+      "title": "单季盈利38亿日元，14个月卖出10万辆新能源，日产被“中国速度”重塑？",
+      "url": "https://www.36kr.com/p/3933585401068672",
+      "event_key": "日产|学习中国速度扭亏|2026年8月",
+      "delivered_on": "2026-08-13"
+    },
+    {
+      "item_id": "41fdad3879f6d299",
+      "title": "财联社汽车早报【8月12日】",
+      "url": "https://www.cls.cn/detail/2451879",
+      "event_key": "小鹏零跑等|新车上市与市场数据|2026年8月",
+      "delivered_on": "2026-08-13"
+    }
+  ],
+  "last_run": "2026-08-13T18:37:37.074998+08:00"
 }
