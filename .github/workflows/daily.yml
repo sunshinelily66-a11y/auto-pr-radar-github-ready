@@ -1,1 +1,64 @@
+name: Daily Auto PR Radar
 
+on:
+  workflow_dispatch:
+  schedule:
+    # GitHub Actions cron 默认 UTC。23:37 UTC = 北京时间 07:37。
+    # 选 37 分钟减少整点拥堵。
+    - cron: '37 23 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: auto-pr-radar-daily
+  cancel-in-progress: false
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Run radar
+        env:
+          # DeepSeek：只配 DEEPSEEK_API_KEY 也可以运行。
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          # 兼容旧命名
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+
+          # 飞书自定义机器人
+          FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
+          FEISHU_SIGNING_SECRET: ${{ secrets.FEISHU_SIGNING_SECRET }}
+          FEISHU_SEND_EMPTY: ${{ vars.FEISHU_SEND_EMPTY }}
+        run: python src/main.py
+
+      - name: Commit report and state
+        if: always()
+        run: |
+          git config user.name "auto-pr-radar-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/daily reports/health data/health data/state.json data/items.jsonl || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "radar: $(date -u +'%Y-%m-%d')"
+            git push
+          fi
