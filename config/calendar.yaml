@@ -1,0 +1,38 @@
+timezone: Asia/Shanghai
+lookahead_days: [7, 14, 30]
+events:
+  - date: 2026-01-06
+    end_date: 2026-01-09
+    name: CES 2026
+    category: tech_show
+    keywords: [AI, 智驾, 芯片, 座舱, 自动驾驶]
+  - date: 2026-02-15
+    end_date: 2026-02-23
+    name: 春节假期
+    category: holiday
+    keywords: [返乡, 长途, 高速, 换电, 充电, 低温, 家庭, 下沉市场]
+  - date: 2026-04-24
+    end_date: 2026-05-03
+    name: 北京车展
+    category: auto_show
+    keywords: [新车, 纯电, 增程, 智驾, 高端, 车展]
+  - date: 2026-05-01
+    end_date: 2026-05-05
+    name: 劳动节假期
+    category: holiday
+    keywords: [自驾, 长途, 高速, 换电, 充电, 家庭]
+  - date: 2026-09-25
+    end_date: 2026-09-27
+    name: 中秋假期
+    category: holiday
+    keywords: [家庭, 出行, 自驾]
+  - date: 2026-10-01
+    end_date: 2026-10-07
+    name: 国庆假期
+    category: holiday
+    keywords: [长途, 自驾, 高速, 换电, 充电, 家庭]
+  - date: 2026-10-12
+    end_date: 2026-10-18
+    name: 巴黎车展
+    category: auto_show
+    keywords: [欧洲, 出海, 纯电, 豪华, 中国品牌]

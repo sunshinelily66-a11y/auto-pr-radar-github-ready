@@ -1,0 +1,89 @@
+companies:
+  - name: Tesla
+    aliases: [Tesla, 特斯拉]
+    group: pure_ev
+    priority: 5
+  - name: Li Auto
+    aliases: [Li Auto, 理想汽车, 理想]
+    group: direct_competitor
+    priority: 5
+  - name: XPENG
+    aliases: [XPENG, 小鹏汽车, 小鹏]
+    group: pure_ev
+    priority: 5
+  - name: Xiaomi Auto
+    aliases: [Xiaomi Auto, 小米汽车, 小米]
+    group: high_attention
+    priority: 5
+  - name: BYD
+    aliases: [BYD, 比亚迪]
+    group: market_leader
+    priority: 5
+  - name: Geely
+    aliases: [Geely, 吉利汽车, 吉利]
+    group: market_leader
+    priority: 4
+  - name: Zeekr
+    aliases: [Zeekr, 极氪]
+    group: premium_ev
+    priority: 4
+  - name: Geely Galaxy
+    aliases: [Geely Galaxy, 吉利银河, 银河]
+    group: mass_market
+    priority: 4
+  - name: Leapmotor
+    aliases: [Leapmotor, 零跑汽车, 零跑]
+    group: growth
+    priority: 4
+  - name: SERES
+    aliases: [SERES, 赛力斯]
+    group: direct_competitor
+    priority: 5
+  - name: AITO
+    aliases: [AITO, 问界]
+    group: direct_competitor
+    priority: 5
+  - name: AVATR
+    aliases: [AVATR, 阿维塔]
+    group: premium_ev
+    priority: 4
+  - name: VOYAH
+    aliases: [VOYAH, 岚图]
+    group: premium_ev
+    priority: 4
+  - name: BMW
+    aliases: [BMW, 宝马]
+    group: legacy_premium
+    priority: 5
+  - name: Mercedes-Benz
+    aliases: [Mercedes-Benz, Mercedes, 奔驰]
+    group: legacy_premium
+    priority: 5
+  - name: Audi
+    aliases: [Audi, 奥迪]
+    group: legacy_premium
+    priority: 5
+  - name: Porsche
+    aliases: [Porsche, 保时捷]
+    group: legacy_premium
+    priority: 4
+  - name: Volvo Cars
+    aliases: [Volvo, Volvo Cars, 沃尔沃]
+    group: legacy_premium
+    priority: 3
+  - name: Volkswagen
+    aliases: [Volkswagen, 大众]
+    group: legacy_global
+    priority: 3
+  - name: Toyota
+    aliases: [Toyota, 丰田]
+    group: legacy_global
+    priority: 3
+  - name: General Motors
+    aliases: [General Motors, GM, 通用汽车]
+    group: legacy_global
+    priority: 2
+  - name: Ford
+    aliases: [Ford, 福特]
+    group: legacy_global
+    priority: 2

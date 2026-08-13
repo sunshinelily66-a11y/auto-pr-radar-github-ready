@@ -1,0 +1,984 @@
+settings:
+  user_agent: AutoPRRadar/0.5 (public-information-monitor; respect robots.txt)
+  request_timeout_seconds: 18
+  max_links_per_source: 20
+  max_articles_per_source: 5
+  lookback_hours: 72
+  respect_robots: true
+  healthcheck_timeout_seconds: 8
+  max_unknown_date_per_source: 2
+sources:
+- id: cada
+  name: 中国汽车流通协会 CADA
+  category: market
+  source_level: S
+  method: html_index
+  url: https://www.cada.cn/
+  frequency: daily
+  priority: 5
+  include_keywords:
+  - 汽车市场
+  - 新能源
+  - 库存
+  - 销量
+  - 流通
+  - 经销商
+  - 二手车
+  - 价格
+  notes: 市场流通、库存、经销商与消费端数据。
+- id: cpca_data
+  name: 乘联分会 CPCA
+  category: market
+  source_level: S
+  method: html_index
+  url: https://data.cpcadata.com/
+  frequency: daily
+  priority: 5
+  include_keywords:
+  - 周度
+  - 月度
+  - 新能源
+  - 纯电
+  - 插混
+  - 零售
+  - 批发
+  - 渗透率
+  - 厂商排名
+  - 市场分析
+  - 预测
+  notes: 乘用车月度/周度市场数据；月初、月中重点。
+- id: caam
+  name: 中国汽车工业协会 CAAM
+  category: market
+  source_level: S
+  method: html_index
+  url: https://www.caam.org.cn/
+  frequency: daily
+  priority: 5
+  include_keywords:
+  - 产销
+  - 新能源汽车
+  - 出口
+  - 销量
+  - 汽车工业
+  - 月度
+  - 市场
+  notes: 行业总盘、产销和出口数据。
+- id: gov_cn
+  name: 中国政府网
+  category: policy
+  source_level: S
+  method: html_index
+  url: https://www.gov.cn/
+  frequency: daily
+  priority: 5
+  include_keywords:
+  - 汽车
+  - 新能源汽车
+  - 消费
+  - 以旧换新
+  - 充电
+  - 换电
+  - 智能网联
+  - 自动驾驶
+  - 出口
+  notes: 国务院层面重大政策与跨部委文件。
+- id: miit
+  name: 工业和信息化部 MIIT
+  category: policy
+  source_level: S
+  method: html_index
+  url: https://www.miit.gov.cn/
+  frequency: daily
+  priority: 5
+  include_keywords:
+  - 新能源汽车
+  - 汽车
+  - 换电
+  - 充电
+  - 智能网联
+  - 自动驾驶
+  - 动力电池
+  - 车型目录
+  - 产品公告
+  notes: 产品准入、技术要求、智能网联、动力电池。
+- id: ndrc
+  name: 国家发展和改革委员会 NDRC
+  category: policy
+  source_level: S
+  method: html_index
+  url: https://www.ndrc.gov.cn/
+  frequency: daily
+  priority: 5
+  include_keywords:
+  - 汽车
+  - 新能源
+  - 充电
+  - 换电
+  - 电价
+  - 消费
+  - 以旧换新
+  - 基础设施
+  notes: 消费、价格、能源和基础设施政策。
+- id: mofcom
+  name: 商务部 MOFCOM
+  category: policy
+  source_level: S
+  method: html_index
+  url: https://www.mofcom.gov.cn/
+  frequency: daily
+  priority: 5
+  include_keywords:
+  - 汽车
+  - 以旧换新
+  - 新能源
+  - 消费
+  - 出口
+  - 贸易
+  - 欧盟
+  - 关税
+  notes: 汽车消费、以旧换新、出口与贸易政策。
+- id: mof
+  name: 财政部 MOF
+  category: policy
+  source_level: S
+  method: html_index
+  url: https://www.mof.gov.cn/
+  frequency: daily
+  priority: 5
+  include_keywords:
+  - 汽车
+  - 新能源汽车
+  - 购置税
+  - 车船税
+  - 补贴
+  - 以旧换新
+  - 财政
+  notes: 购置税、财政补贴及相关财税政策。
+- id: chinatax
+  name: 国家税务总局
+  category: policy
+  source_level: S
+  method: html_index
+  url: https://www.chinatax.gov.cn/
+  frequency: daily
+  priority: 5
+  include_keywords:
+  - 车辆购置税
+  - 车船税
+  - 新能源汽车
+  - 汽车
+  - 税收
+  notes: 购置税、车船税等执行口径。
+- id: samr
+  name: 国家市场监督管理总局 SAMR
+  category: policy
+  source_level: S
+  method: html_index
+  url: https://www.samr.gov.cn/
+  frequency: daily
+  priority: 4
+  include_keywords:
+  - 汽车
+  - 召回
+  - 缺陷
+  - 安全
+  - 标准
+  - 产品质量
+  notes: 召回、产品质量、安全与监管。
+- id: mot
+  name: 交通运输部 MOT
+  category: policy
+  source_level: S
+  method: html_index
+  url: https://www.mot.gov.cn/
+  frequency: daily
+  priority: 4
+  include_keywords:
+  - 汽车
+  - 高速公路
+  - 充电
+  - 换电
+  - 自动驾驶
+  - 智能网联
+  - 春运
+  - 出行
+  notes: 高速、节假出行、补能和自动驾驶试点。
+- id: beijing_gov
+  name: 北京市政府
+  category: policy
+  source_level: S
+  method: html_index
+  url: https://www.beijing.gov.cn/
+  frequency: daily
+  priority: 3
+  include_keywords:
+  - 汽车
+  - 新能源汽车
+  - 小客车
+  - 以旧换新
+  - 充电
+  - 自动驾驶
+  - 消费
+- id: shanghai_gov
+  name: 上海市政府
+  category: policy
+  source_level: S
+  method: html_index
+  url: https://www.shanghai.gov.cn/
+  frequency: daily
+  priority: 4
+  include_keywords:
+  - 汽车
+  - 新能源汽车
+  - 以旧换新
+  - 充电
+  - 换电
+  - 智能网联
+  - 自动驾驶
+  - 消费
+- id: guangdong_gov
+  name: 广东省政府
+  category: policy
+  source_level: S
+  method: html_index
+  url: https://www.gd.gov.cn/
+  frequency: daily
+  priority: 3
+  include_keywords:
+  - 汽车
+  - 新能源汽车
+  - 以旧换新
+  - 充电
+  - 消费
+  - 智能网联
+- id: shenzhen_gov
+  name: 深圳市政府
+  category: policy
+  source_level: S
+  method: html_index
+  url: https://www.sz.gov.cn/
+  frequency: daily
+  priority: 3
+  include_keywords:
+  - 汽车
+  - 新能源汽车
+  - 以旧换新
+  - 充电
+  - 自动驾驶
+  - 消费
+- id: zhejiang_gov
+  name: 浙江省政府
+  category: policy
+  source_level: S
+  method: html_index
+  url: https://www.zj.gov.cn/
+  frequency: daily
+  priority: 4
+  include_keywords:
+  - 汽车
+  - 新能源汽车
+  - 以旧换新
+  - 充电
+  - 消费
+  - 智能网联
+- id: jiangsu_gov
+  name: 江苏省政府
+  category: policy
+  source_level: S
+  method: html_index
+  url: https://www.jiangsu.gov.cn/
+  frequency: daily
+  priority: 4
+  include_keywords:
+  - 汽车
+  - 新能源汽车
+  - 以旧换新
+  - 充电
+  - 消费
+  - 智能网联
+- id: fujian_gov
+  name: 福建省政府
+  category: policy
+  source_level: S
+  method: html_index
+  url: https://www.fujian.gov.cn/
+  frequency: daily
+  priority: 4
+  include_keywords:
+  - 汽车
+  - 新能源汽车
+  - 以旧换新
+  - 充电
+  - 消费
+  - 泉州
+  - 厦门
+- id: sichuan_gov
+  name: 四川省政府
+  category: policy
+  source_level: S
+  method: html_index
+  url: https://www.sc.gov.cn/
+  frequency: daily
+  priority: 3
+  include_keywords:
+  - 汽车
+  - 新能源汽车
+  - 以旧换新
+  - 充电
+  - 消费
+  - 自动驾驶
+- id: chongqing_gov
+  name: 重庆市政府
+  category: policy
+  source_level: S
+  method: html_index
+  url: https://www.cq.gov.cn/
+  frequency: daily
+  priority: 3
+  include_keywords:
+  - 汽车
+  - 新能源汽车
+  - 以旧换新
+  - 充电
+  - 消费
+  - 智能网联
+- id: li_auto_ir
+  name: Li Auto IR
+  category: competitor
+  source_level: S
+  method: html_index
+  url: https://ir.lixiang.com/news/
+  frequency: daily
+  priority: 5
+  include_keywords:
+  - Launches
+  - Delivery
+  - Results
+  - Earnings
+  - vehicle
+  - battery electric
+  - extended-range
+  - BEV
+- id: xpeng_ir
+  name: XPENG IR
+  category: competitor
+  source_level: S
+  method: html_index
+  url: https://ir.xiaopeng.com/news-events/news-releases
+  frequency: daily
+  priority: 5
+  include_keywords:
+  - Delivery
+  - Results
+  - Launch
+  - Earnings
+  - AI
+  - vehicle
+  - autonomous
+  - charging
+- id: xiaomi_ir
+  name: Xiaomi Investor Relations
+  category: competitor
+  source_level: S
+  method: html_index
+  url: https://ir.mi.com/
+  frequency: daily
+  priority: 5
+  include_keywords:
+  - EV
+  - electric vehicle
+  - automotive
+  - SU7
+  - YU7
+  - results
+  - earnings
+- id: byd_news
+  name: BYD Global News
+  category: competitor
+  source_level: S
+  method: html_index
+  url: https://www.bydglobal.com/en/News.html
+  frequency: daily
+  priority: 5
+  include_keywords:
+  - vehicle
+  - electric
+  - battery
+  - charging
+  - sales
+  - technology
+  - overseas
+  - launch
+  - BYD
+  notes: 比亚迪官方全球新闻中心。
+- id: geely_global
+  name: Geely Global
+  category: competitor
+  source_level: S
+  method: html_index
+  url: https://global.geely.com/
+  frequency: daily
+  priority: 5
+  include_keywords:
+  - Geely
+  - Galaxy
+  - Zeekr
+  - electric
+  - hybrid
+  - sales
+  - AI
+  - battery
+  - China
+  - launch
+  - technology
+  notes: 覆盖吉利、银河及集团技术/全球化动态。
+- id: leapmotor
+  name: Leapmotor Official
+  category: competitor
+  source_level: S
+  method: html_index
+  url: https://cn.leapmotor.com/
+  frequency: daily
+  priority: 4
+  include_keywords:
+  - 零跑
+  - 新车
+  - 上市
+  - 交付
+  - 销量
+  - 纯电
+  - 增程
+  - 技术
+  - 海外
+  - Stellantis
+- id: seres
+  name: SERES Official
+  category: competitor
+  source_level: S
+  method: html_index
+  url: https://www.seres.cn/
+  frequency: daily
+  priority: 5
+  include_keywords:
+  - 赛力斯
+  - 问界
+  - AITO
+  - 销量
+  - 交付
+  - 新能源
+  - 智驾
+  - 华为
+  - 产品
+  notes: 用于跟踪问界/赛力斯经营与产品官方信息。
+- id: avatr
+  name: AVATR Official
+  category: competitor
+  source_level: S
+  method: html_index
+  url: https://www.avatr.com/
+  frequency: daily
+  priority: 4
+  include_keywords:
+  - 阿维塔
+  - AVATR
+  - 新车
+  - 上市
+  - 纯电
+  - 增程
+  - 智驾
+  - 华为
+  - 宁德时代
+- id: voyah
+  name: VOYAH Official
+  category: competitor
+  source_level: S
+  method: html_index
+  url: https://www.voyah.com.cn/
+  frequency: daily
+  priority: 4
+  include_keywords:
+  - 岚图
+  - VOYAH
+  - 新车
+  - 上市
+  - 纯电
+  - 增程
+  - 销量
+  - 技术
+- id: tesla_ir
+  name: Tesla Investor Relations
+  category: competitor
+  source_level: S
+  method: html_index
+  url: https://ir.tesla.com/
+  frequency: daily
+  priority: 5
+  include_keywords:
+  - vehicle
+  - delivery
+  - production
+  - earnings
+  - battery
+  - autonomy
+  - charging
+  - robotaxi
+- id: bmw_press
+  name: BMW Group PressClub Global
+  category: competitor
+  source_level: S
+  method: html_index
+  url: https://www.press.bmwgroup.com/global
+  frequency: daily
+  priority: 5
+  include_keywords:
+  - electric
+  - Neue Klasse
+  - China
+  - sales
+  - battery
+  - vehicle
+  - charging
+  - software
+- id: mercedes_media
+  name: Mercedes-Benz Media
+  category: competitor
+  source_level: S
+  method: html_index
+  url: https://media.mercedes-benz.com/
+  frequency: daily
+  priority: 5
+  include_keywords:
+  - electric
+  - battery
+  - China
+  - sales
+  - vehicle
+  - technology
+  - charging
+  - software
+- id: audi_media
+  name: Audi MediaCenter
+  category: competitor
+  source_level: S
+  method: html_index
+  url: https://www.audi-mediacenter.com/
+  frequency: daily
+  priority: 5
+  include_keywords:
+  - electric
+  - China
+  - sales
+  - battery
+  - vehicle
+  - technology
+  - charging
+  - software
+- id: vw_group
+  name: Volkswagen Group Press Releases
+  category: competitor
+  source_level: S
+  method: html_index
+  url: https://www.volkswagen-group.com/en/press-releases
+  frequency: daily
+  priority: 3
+  include_keywords:
+  - electric
+  - China
+  - battery
+  - sales
+  - software
+  - vehicle
+  - charging
+- id: porsche_newsroom
+  name: Porsche Newsroom
+  category: competitor
+  source_level: S
+  method: html_index
+  url: https://newsroom.porsche.com/en.html
+  frequency: daily
+  priority: 4
+  include_keywords:
+  - electric
+  - China
+  - sales
+  - vehicle
+  - battery
+  - charging
+  - Cayenne
+  - Macan
+  - Taycan
+- id: volvo_media
+  name: Volvo Cars Media
+  category: competitor
+  source_level: S
+  method: html_index
+  url: https://www.media.volvocars.com/global/en-gb
+  frequency: daily
+  priority: 3
+  include_keywords:
+  - electric
+  - sales
+  - China
+  - battery
+  - charging
+  - vehicle
+  - software
+- id: toyota_global
+  name: Toyota Global Newsroom
+  category: competitor
+  source_level: S
+  method: html_index
+  url: https://global.toyota/en/newsroom/
+  frequency: daily
+  priority: 3
+  include_keywords:
+  - BEV
+  - electric
+  - China
+  - battery
+  - hybrid
+  - sales
+  - vehicle
+  - hydrogen
+- id: gm_news
+  name: General Motors News
+  category: competitor
+  source_level: S
+  method: html_index
+  url: https://news.gm.com/
+  frequency: daily
+  priority: 2
+  include_keywords:
+  - EV
+  - electric
+  - China
+  - battery
+  - sales
+  - vehicle
+  - autonomous
+- id: ford_media
+  name: Ford Media Center
+  category: competitor
+  source_level: S
+  method: html_index
+  url: https://media.ford.com/
+  frequency: daily
+  priority: 2
+  include_keywords:
+  - EV
+  - electric
+  - China
+  - battery
+  - sales
+  - vehicle
+  - charging
+- id: reuters_autos
+  name: Reuters Autos & Transportation
+  category: industry_news
+  source_level: A
+  method: html_index
+  url: https://www.reuters.com/business/autos-transportation/
+  frequency: daily
+  priority: 5
+  include_keywords:
+  - China
+  - EV
+  - electric vehicle
+  - Tesla
+  - BMW
+  - Mercedes
+  - Audi
+  - BYD
+  - Li Auto
+  - XPeng
+  - Xiaomi
+  - automotive
+  - tariff
+  - battery
+  - charging
+- id: ft_autos
+  name: Financial Times - Automobiles
+  category: industry_news
+  source_level: A
+  method: html_index
+  url: https://www.ft.com/automobiles
+  frequency: daily
+  priority: 4
+  include_keywords:
+  - China
+  - EV
+  - electric
+  - automotive
+  - carmaker
+  - battery
+  - tariff
+  - luxury
+  - vehicle
+- id: techcrunch_transportation
+  name: TechCrunch Transportation
+  category: industry_news
+  source_level: B
+  method: html_index
+  url: https://techcrunch.com/category/transportation/
+  frequency: daily
+  priority: 2
+  include_keywords:
+  - EV
+  - electric
+  - autonomous
+  - Tesla
+  - robotaxi
+  - vehicle
+  - battery
+  - mobility
+- id: verge_transportation
+  name: The Verge Transportation
+  category: industry_news
+  source_level: B
+  method: html_index
+  url: https://www.theverge.com/transportation
+  frequency: daily
+  priority: 2
+  include_keywords:
+  - EV
+  - electric
+  - autonomous
+  - Tesla
+  - vehicle
+  - battery
+  - charging
+  - car
+- id: stats_cn
+  name: 国家统计局
+  category: market
+  source_level: S
+  method: html_index
+  url: https://www.stats.gov.cn/sj/zxfbhjd/
+  frequency: daily
+  priority: 5
+  include_keywords:
+  - 汽车类
+  - 社会消费品零售总额
+  - 工业增加值
+  - 消费
+  - 汽车
+  notes: 宏观消费、汽车类零售与工业数据。
+- id: nea_cn
+  name: 国家能源局
+  category: policy
+  source_level: S
+  method: html_index
+  url: https://www.nea.gov.cn/
+  frequency: daily
+  priority: 5
+  include_keywords:
+  - 电动汽车
+  - 充电设施
+  - 充电基础设施
+  - 新能源汽车
+  - 电力
+  - 充电
+  notes: 全国充电设施数据与能源政策。
+- id: evcipa
+  name: 中国充电联盟 EVCIPA
+  category: market
+  source_level: S
+  method: html_index
+  url: https://www.evcipa.org.cn/
+  frequency: daily
+  priority: 5
+  include_keywords:
+  - 充电基础设施
+  - 充换电
+  - 统计数据
+  - 充电联盟
+  - 公共充电
+  - 换电
+  notes: 充换电基础设施月度数据、标准和行业报告。
+- id: gacc_stats
+  name: 海关总署统计
+  category: market
+  source_level: S
+  method: html_index
+  url: https://english.customs.gov.cn/Statistics/Statistics
+  frequency: daily
+  priority: 4
+  include_keywords:
+  - Motor vehicles
+  - Automotive
+  - Exports
+  - Monthly Bulletin
+  - Major Exports
+  notes: 整车及汽车零部件出口数据。
+- id: yicai_auto
+  name: 第一财经汽车
+  category: industry_news
+  source_level: A
+  method: html_index
+  url: https://www.yicai.com/news/automobile/
+  frequency: daily
+  priority: 5
+  include_keywords:
+  - 汽车
+  - 新能源
+  - 纯电
+  - 增程
+  - 车企
+  - 销量
+  - 智驾
+  - 电池
+  - 充电
+  - 出海
+  notes: 财经与产业视角，适合经营、行业格局和全球化。
+- id: cls_auto
+  name: 财联社汽车早报
+  category: industry_news
+  source_level: A
+  method: html_index
+  url: https://www.cls.cn/subject/7527
+  frequency: daily
+  priority: 5
+  include_keywords:
+  - 汽车
+  - 新能源
+  - 车企
+  - 销量
+  - 财报
+  - 智驾
+  - 电池
+  - 充电
+  - 政策
+  notes: 高频行业信息与车企财报/资本市场动态。
+- id: jiemian_auto
+  name: 界面新闻汽车
+  category: industry_news
+  source_level: A
+  method: html_index
+  url: https://www.jiemian.com/lists/51.html
+  frequency: daily
+  priority: 5
+  include_keywords:
+  - 汽车
+  - 新能源
+  - 新势力
+  - 销量
+  - 豪华
+  - 智驾
+  - 纯电
+  - 增程
+  - 车企
+  notes: 汽车产业、公司经营与豪华品牌变化。
+- id: nbd_auto
+  name: 每日经济新闻汽车
+  category: industry_news
+  source_level: A
+  method: html_index
+  url: https://auto.nbd.com.cn/
+  frequency: daily
+  priority: 5
+  include_keywords:
+  - 汽车
+  - 新能源
+  - 销量
+  - 车企
+  - 利润
+  - 智驾
+  - 纯电
+  - 增程
+  - 充电
+  notes: 行业数据、公司经营、区域与消费趋势。
+- id: eeo_auto
+  name: 经济观察网汽车
+  category: industry_news
+  source_level: A
+  method: html_index
+  url: https://www.eeo.com.cn/jg/chanye/qiche/
+  frequency: daily
+  priority: 4
+  include_keywords:
+  - 汽车
+  - 新能源
+  - 纯电
+  - 增程
+  - 车企
+  - 销量
+  - 高端
+  - 供应链
+  - 智驾
+  notes: 行业产业与公司战略深度。
+- id: gasgoo_auto
+  name: 盖世汽车原创
+  category: industry_news
+  source_level: A
+  method: html_index
+  url: https://auto.gasgoo.com/original-news
+  frequency: daily
+  priority: 4
+  include_keywords:
+  - 新能源
+  - 车企
+  - 供应链
+  - 智能网联
+  - 销量
+  - 电池
+  - 纯电
+  - 增程
+  - 汽车
+  notes: 汽车产业链、供应链、技术与销量专业信息。
+- id: autoreport_cn
+  name: 汽车产经网
+  category: industry_news
+  source_level: A
+  method: html_index
+  url: https://www.autoreport.cn/
+  frequency: daily
+  priority: 4
+  include_keywords:
+  - 汽车
+  - 新能源
+  - 车企
+  - 销量
+  - 纯电
+  - 增程
+  - 出海
+  - 智驾
+  - 行业
+  notes: 汽车行业、企业、数据与深度策划。
+- id: 36kr_auto
+  name: 36氪汽车
+  category: industry_news
+  source_level: B
+  method: html_index
+  url: https://www.36kr.com/information/travel/
+  frequency: daily
+  priority: 3
+  include_keywords:
+  - 汽车
+  - 新能源
+  - 新势力
+  - 纯电
+  - 增程
+  - 智驾
+  - 销量
+  - 车企
+  - 出海
+  notes: 作为趋势和选题线索源，核心事实需回查一手来源。
+- id: xinhua_auto
+  name: 新华汽车
+  category: industry_news
+  source_level: B
+  method: html_index
+  url: https://www.news.cn/auto/gdxw/
+  frequency: daily
+  priority: 3
+  include_keywords:
+  - 汽车
+  - 新能源
+  - 车企
+  - 销量
+  - 智驾
+  - 电池
+  - 充电
+  - 出海
+  notes: 行业发布与政策/企业动态补充，需注意推广稿比例。

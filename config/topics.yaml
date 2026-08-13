@@ -1,0 +1,223 @@
+topics:
+  market:
+    name: 市场
+    weight: 4
+    keywords:
+    - 销量
+    - 零售
+    - 批发
+    - 渗透率
+    - 市占率
+    - 市场份额
+    - 交付
+    - 订单
+    - 出口
+    - 库存
+    - 上险
+    - sales
+    - deliveries
+    - market share
+    - export
+  bev:
+    name: 纯电
+    weight: 5
+    keywords:
+    - 纯电
+    - BEV
+    - battery electric
+    - pure electric
+    - electric vehicle
+    - EV
+  phev:
+    name: 插混
+    weight: 4
+    keywords:
+    - 插混
+    - PHEV
+    - plug-in hybrid
+  reev:
+    name: 增程
+    weight: 5
+    keywords:
+    - 增程
+    - REEV
+    - range extender
+    - extended-range
+  premium:
+    name: 高端市场
+    weight: 4
+    keywords:
+    - 高端
+    - 豪华
+    - 30万以上
+    - 40万以上
+    - 50万以上
+    - premium
+    - luxury
+  pricing:
+    name: 价格与权益
+    weight: 4
+    keywords:
+    - 降价
+    - 涨价
+    - 价格
+    - 权益
+    - 补贴
+    - 置换
+    - 优惠
+    - price cut
+    - pricing
+    - incentive
+  product:
+    name: 产品
+    weight: 4
+    keywords:
+    - 新车
+    - 上市
+    - 预售
+    - 改款
+    - 车型
+    - 交付
+    - launch
+    - model
+    - vehicle
+  technology:
+    name: 技术
+    weight: 4
+    keywords:
+    - 智驾
+    - 自动驾驶
+    - 芯片
+    - 电池
+    - 快充
+    - 超充
+    - 换电
+    - 800V
+    - 900V
+    - 5C
+    - 6C
+    - 底盘
+    - AI
+    - autonomous
+    - battery
+    - charging
+    - chip
+  policy:
+    name: 政策
+    weight: 5
+    keywords:
+    - 政策
+    - 通知
+    - 公告
+    - 标准
+    - 购置税
+    - 以旧换新
+    - 补贴
+    - 智能网联
+    - 自动驾驶
+    - 充换电
+    - regulation
+    - tariff
+    - subsidy
+  finance:
+    name: 财报与经营
+    weight: 4
+    keywords:
+    - 财报
+    - 营收
+    - 毛利
+    - 利润
+    - 亏损
+    - 现金流
+    - 经营
+    - 降本
+    - earnings
+    - revenue
+    - margin
+    - profit
+    - cash flow
+  global:
+    name: 出海与全球化
+    weight: 3
+    keywords:
+    - 出口
+    - 海外
+    - 欧洲
+    - 美国
+    - 关税
+    - 本地化
+    - 工厂
+    - export
+    - Europe
+    - tariff
+    - overseas
+    - localization
+  supply_chain:
+    name: 供应链
+    weight: 3
+    keywords:
+    - 供应链
+    - 采购
+    - 产能
+    - 工厂
+    - 零部件
+    - 供应商
+    - supply chain
+    - production
+    - capacity
+  safety:
+    name: 安全与监管
+    weight: 5
+    keywords:
+    - 召回
+    - 安全
+    - 事故
+    - 碰撞
+    - 起火
+    - 缺陷
+    - recall
+    - safety
+    - crash
+    - fire
+  infrastructure:
+    name: 补能基础设施
+    weight: 5
+    keywords:
+    - 充电基础设施
+    - 公共充电
+    - 充电桩
+    - 超充站
+    - 换电站
+    - 高速充电
+    - charging infrastructure
+    - battery swap
+  regional:
+    name: 地域市场
+    weight: 4
+    keywords:
+    - 区域
+    - 城市
+    - 省份
+    - 长三角
+    - 珠三角
+    - 浙江
+    - 江苏
+    - 福建
+    - 上海
+    - 北京
+    - 广东
+    - 西南
+    - 东北
+  consumer:
+    name: 消费趋势
+    weight: 4
+    keywords:
+    - 消费者
+    - 消费趋势
+    - 用户结构
+    - 家庭
+    - 女性用户
+    - 企业主
+    - 高净值
+    - 购车需求
+    - 消费信心
