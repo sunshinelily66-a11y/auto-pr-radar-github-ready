@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-13T18:37:37.074998+08:00",
+  "checked_at": "2026-08-14T08:09:30.850396+08:00",
   "sources": [
     {
       "source_id": "cada",
@@ -13,7 +13,7 @@
       "candidate_links": 20,
       "keyword_hits": 70,
       "latest_visible_date": "2026-03-09",
-      "elapsed_ms": 1992,
+      "elapsed_ms": 2127,
       "error": ""
     },
     {
@@ -28,7 +28,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 2273,
+      "elapsed_ms": 1847,
       "error": ""
     },
     {
@@ -43,7 +43,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 14479,
+      "elapsed_ms": 14755,
       "error": "request failed"
     },
     {
@@ -58,7 +58,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 433,
+      "elapsed_ms": 1124,
       "error": ""
     },
     {
@@ -73,7 +73,7 @@
       "candidate_links": 12,
       "keyword_hits": 26,
       "latest_visible_date": "2026-08-13",
-      "elapsed_ms": 1923,
+      "elapsed_ms": 3106,
       "error": ""
     },
     {
@@ -88,7 +88,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 793,
+      "elapsed_ms": 1072,
       "error": ""
     },
     {
@@ -103,7 +103,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 1439,
+      "elapsed_ms": 1539,
       "error": ""
     },
     {
@@ -118,7 +118,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 2319,
+      "elapsed_ms": 2621,
       "error": ""
     },
     {
@@ -133,7 +133,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 3371,
+      "elapsed_ms": 1937,
       "error": ""
     },
     {
@@ -148,7 +148,7 @@
       "candidate_links": 19,
       "keyword_hits": 25,
       "latest_visible_date": null,
-      "elapsed_ms": 2069,
+      "elapsed_ms": 1802,
       "error": ""
     },
     {
@@ -163,7 +163,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 3543,
+      "elapsed_ms": 3689,
       "error": ""
     },
     {
@@ -178,7 +178,7 @@
       "candidate_links": 1,
       "keyword_hits": 1,
       "latest_visible_date": null,
-      "elapsed_ms": 1964,
+      "elapsed_ms": 2287,
       "error": ""
     },
     {
@@ -193,7 +193,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 3686,
+      "elapsed_ms": 1288,
       "error": ""
     },
     {
@@ -208,7 +208,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 1928,
+      "elapsed_ms": 2059,
       "error": ""
     },
     {
@@ -223,7 +223,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 1961,
+      "elapsed_ms": 1577,
       "error": "request failed"
     },
     {
@@ -238,7 +238,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 18463,
+      "elapsed_ms": 14858,
       "error": "request failed"
     },
     {
@@ -253,7 +253,7 @@
       "candidate_links": 1,
       "keyword_hits": 1,
       "latest_visible_date": null,
-      "elapsed_ms": 2075,
+      "elapsed_ms": 1885,
       "error": ""
     },
     {
@@ -268,7 +268,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 4443,
+      "elapsed_ms": 3337,
       "error": ""
     },
     {
@@ -283,7 +283,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 14068,
+      "elapsed_ms": 14075,
       "error": "request failed"
     },
     {
@@ -298,7 +298,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 3083,
+      "elapsed_ms": 2818,
       "error": ""
     },
     {
@@ -313,7 +313,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 14274,
+      "elapsed_ms": 14317,
       "error": "request failed"
     },
     {
@@ -328,7 +328,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 14612,
+      "elapsed_ms": 14455,
       "error": "request failed"
     },
     {
@@ -343,7 +343,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 14152,
+      "elapsed_ms": 14307,
       "error": "request failed"
     },
     {
@@ -358,7 +358,7 @@
       "candidate_links": 2,
       "keyword_hits": 2,
       "latest_visible_date": null,
-      "elapsed_ms": 13245,
+      "elapsed_ms": 5142,
       "error": ""
     },
     {
@@ -373,7 +373,7 @@
       "candidate_links": 14,
       "keyword_hits": 26,
       "latest_visible_date": "2026-04-18",
-      "elapsed_ms": 1627,
+      "elapsed_ms": 1911,
       "error": ""
     },
     {
@@ -388,7 +388,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 1713,
+      "elapsed_ms": 1299,
       "error": ""
     },
     {
@@ -403,7 +403,7 @@
       "candidate_links": 6,
       "keyword_hits": 6,
       "latest_visible_date": "2026-08-05",
-      "elapsed_ms": 2482,
+      "elapsed_ms": 1747,
       "error": ""
     },
     {
@@ -418,7 +418,7 @@
       "candidate_links": 15,
       "keyword_hits": 16,
       "latest_visible_date": null,
-      "elapsed_ms": 1431,
+      "elapsed_ms": 1276,
       "error": ""
     },
     {
@@ -433,7 +433,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 1422,
+      "elapsed_ms": 1764,
       "error": ""
     },
     {
@@ -448,7 +448,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 119,
+      "elapsed_ms": 318,
       "error": "request failed"
     },
     {
@@ -463,7 +463,7 @@
       "candidate_links": 20,
       "keyword_hits": 28,
       "latest_visible_date": "2026-11-22",
-      "elapsed_ms": 1483,
+      "elapsed_ms": 3802,
       "error": ""
     },
     {
@@ -478,7 +478,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 203,
+      "elapsed_ms": 738,
       "error": ""
     },
     {
@@ -493,7 +493,7 @@
       "candidate_links": 17,
       "keyword_hits": 22,
       "latest_visible_date": "2026-08-27",
-      "elapsed_ms": 1468,
+      "elapsed_ms": 2469,
       "error": ""
     },
     {
@@ -508,7 +508,7 @@
       "candidate_links": 20,
       "keyword_hits": 75,
       "latest_visible_date": "2026-07-10",
-      "elapsed_ms": 457,
+      "elapsed_ms": 1555,
       "error": ""
     },
     {
@@ -523,7 +523,7 @@
       "candidate_links": 12,
       "keyword_hits": 13,
       "latest_visible_date": null,
-      "elapsed_ms": 966,
+      "elapsed_ms": 1494,
       "error": ""
     },
     {
@@ -538,7 +538,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 288,
+      "elapsed_ms": 485,
       "error": "request failed"
     },
     {
@@ -553,7 +553,7 @@
       "candidate_links": 2,
       "keyword_hits": 2,
       "latest_visible_date": null,
-      "elapsed_ms": 938,
+      "elapsed_ms": 877,
       "error": ""
     },
     {
@@ -568,7 +568,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 200,
+      "elapsed_ms": 249,
       "error": "request failed"
     },
     {
@@ -583,7 +583,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 14295,
+      "elapsed_ms": 14271,
       "error": "request failed"
     },
     {
@@ -598,7 +598,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 221,
+      "elapsed_ms": 479,
       "error": ""
     },
     {
@@ -611,9 +611,9 @@
       "http_status": 200,
       "robots": "allowed",
       "candidate_links": 20,
-      "keyword_hits": 43,
+      "keyword_hits": 47,
       "latest_visible_date": null,
-      "elapsed_ms": 877,
+      "elapsed_ms": 1085,
       "error": ""
     },
     {
@@ -628,7 +628,7 @@
       "candidate_links": 20,
       "keyword_hits": 28,
       "latest_visible_date": null,
-      "elapsed_ms": 186,
+      "elapsed_ms": 266,
       "error": ""
     },
     {
@@ -641,9 +641,9 @@
       "http_status": 200,
       "robots": "allowed",
       "candidate_links": 20,
-      "keyword_hits": 49,
+      "keyword_hits": 48,
       "latest_visible_date": null,
-      "elapsed_ms": 156,
+      "elapsed_ms": 313,
       "error": ""
     },
     {
@@ -658,7 +658,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 5318,
+      "elapsed_ms": 6898,
       "error": ""
     },
     {
@@ -673,7 +673,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 1221,
+      "elapsed_ms": 1463,
       "error": ""
     },
     {
@@ -682,14 +682,14 @@
       "category": "market",
       "source_level": "S",
       "url": "https://www.evcipa.org.cn/",
-      "status": "empty",
-      "http_status": 200,
+      "status": "http_failed",
+      "http_status": null,
       "robots": "allowed",
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 3048,
-      "error": ""
+      "elapsed_ms": 113147,
+      "error": "request failed"
     },
     {
       "source_id": "gacc_stats",
@@ -703,7 +703,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 3894,
+      "elapsed_ms": 5326,
       "error": "request failed"
     },
     {
@@ -718,7 +718,7 @@
       "candidate_links": 20,
       "keyword_hits": 78,
       "latest_visible_date": null,
-      "elapsed_ms": 459,
+      "elapsed_ms": 1849,
       "error": ""
     },
     {
@@ -733,7 +733,7 @@
       "candidate_links": 20,
       "keyword_hits": 20,
       "latest_visible_date": null,
-      "elapsed_ms": 2615,
+      "elapsed_ms": 2671,
       "error": ""
     },
     {
@@ -748,7 +748,7 @@
       "candidate_links": 12,
       "keyword_hits": 14,
       "latest_visible_date": null,
-      "elapsed_ms": 3584,
+      "elapsed_ms": 3217,
       "error": ""
     },
     {
@@ -761,9 +761,9 @@
       "http_status": 200,
       "robots": "allowed",
       "candidate_links": 10,
-      "keyword_hits": 14,
+      "keyword_hits": 13,
       "latest_visible_date": null,
-      "elapsed_ms": 3281,
+      "elapsed_ms": 2798,
       "error": ""
     },
     {
@@ -778,7 +778,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 2299,
+      "elapsed_ms": 2125,
       "error": ""
     },
     {
@@ -790,10 +790,10 @@
       "status": "ok",
       "http_status": 200,
       "robots": "allowed",
-      "candidate_links": 8,
-      "keyword_hits": 9,
+      "candidate_links": 6,
+      "keyword_hits": 6,
       "latest_visible_date": null,
-      "elapsed_ms": 3112,
+      "elapsed_ms": 2219,
       "error": ""
     },
     {
@@ -808,7 +808,7 @@
       "candidate_links": 19,
       "keyword_hits": 69,
       "latest_visible_date": null,
-      "elapsed_ms": 2007,
+      "elapsed_ms": 2216,
       "error": ""
     },
     {
@@ -822,8 +822,8 @@
       "robots": "allowed",
       "candidate_links": 16,
       "keyword_hits": 18,
-      "latest_visible_date": "2026-08-11",
-      "elapsed_ms": 2732,
+      "latest_visible_date": "2026-08-12",
+      "elapsed_ms": 1963,
       "error": ""
     },
     {
@@ -838,7 +838,7 @@
       "candidate_links": 8,
       "keyword_hits": 8,
       "latest_visible_date": null,
-      "elapsed_ms": 1293,
+      "elapsed_ms": 1601,
       "error": ""
     }
   ]
