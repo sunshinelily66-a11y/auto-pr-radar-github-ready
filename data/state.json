@@ -749,6 +749,76 @@
       "title": "World",
       "url": "https://www.ft.com/world",
       "seen_at": "2026-08-16T07:47:55.462379+08:00"
+    },
+    "3581b895aea46391": {
+      "title": "魏牌V8X上市，上汽大众ID.ERA 5S预售｜一周车闻 从当前市场表现来看，魏牌亟需制造出一款爆款产品来撬动市场份额，而20万元级的大五座SUV市场为主流赛道。 6221 昨天 14:15",
+      "url": "https://www.yicai.com/news/103319934.html",
+      "seen_at": "2026-08-17T07:47:55.662724+08:00"
+    },
+    "1b353dd95d1fe83d": {
+      "title": "TechCrunch Mobility: The shifting flight path of electric air taxis",
+      "url": "https://techcrunch.com/2026/08/16/techcrunch-mobility-the-shifting-flight-path-of-electric-air-taxis/",
+      "seen_at": "2026-08-17T07:47:55.662724+08:00"
+    },
+    "36fb9b56ab3131ea": {
+      "title": "比亚迪连上两款新车换打法，电池产能成关注点 第二代刀片电池产能受关注。 29192 08-15 20:34",
+      "url": "https://www.yicai.com/news/103319830.html",
+      "seen_at": "2026-08-17T07:47:55.662724+08:00"
+    },
+    "77155a2baa41ce59": {
+      "title": "MINI Strengthens Its Global Presence: Fully Electric Debut in Pakistan and Return to Jordan.",
+      "url": "https://www.press.bmwgroup.com/global/article/detail/T0460020EN/mini-strengthens-its-global-presence:-fully-electric-debut-in-pakistan-and-return-to-jordan",
+      "seen_at": "2026-08-17T07:47:55.662724+08:00"
+    },
+    "fb3bdfe786a1fcda": {
+      "title": "小马智行计划在欧洲五城部署超2000辆Robotaxi；全国高速服务区建成充电设施8.54万个丨汽车早参",
+      "url": "https://www.nbd.com.cn/articles/2026-08-16/4543251.html",
+      "seen_at": "2026-08-17T07:47:55.662724+08:00"
+    },
+    "b851dab944661ac6": {
+      "title": "2026 E-Town机器人消费节启动 四大场景打造“机器人消费”新地标",
+      "url": "https://www.beijing.gov.cn/ywdt/gzdt/202608/t20260816_4824564.html",
+      "seen_at": "2026-08-17T07:47:55.662724+08:00"
+    },
+    "80e40dd471e47340": {
+      "title": "08.07.2026 Press Release BMW iX3 achieves highest “five star” rating in first Euro NCAP test since introduction of new, more stringent assessment standard.",
+      "url": "https://www.press.bmwgroup.com/global/article/detail/T0459155EN/bmw-ix3-achieves-highest-“five-star”-rating-in-first-euro-ncap-test-since-introduction-of-new-more-stringent-assessment-standard",
+      "seen_at": "2026-08-17T07:47:55.662724+08:00"
+    },
+    "7fd1e1d09927bd8b": {
+      "title": "Taycan",
+      "url": "https://newsroom.porsche.com/en/products/taycan.html",
+      "seen_at": "2026-08-17T07:47:55.662724+08:00"
+    },
+    "303117e644c63eeb": {
+      "title": "Macan",
+      "url": "https://newsroom.porsche.com/en/products/macan.html",
+      "seen_at": "2026-08-17T07:47:55.662724+08:00"
+    },
+    "c9537f229f6d6c1f": {
+      "title": "World’s largest carmakers seek to avert motor oil crisis",
+      "url": "https://www.ft.com/content/161ee092-d2b6-4375-a853-e7a6fbee60e2",
+      "seen_at": "2026-08-17T07:47:55.662724+08:00"
+    },
+    "ddcefd61426c224c": {
+      "title": "E周看点 | 保时捷将联手小鹏碳减排；大众新合资电池公司落地大连",
+      "url": "https://auto.gasgoo.com/news/202608/16I70469292C501.shtml",
+      "seen_at": "2026-08-17T07:47:55.662724+08:00"
+    },
+    "6ce427f512e201f7": {
+      "title": "Events",
+      "url": "https://techcrunch.com/events/",
+      "seen_at": "2026-08-17T07:47:55.662724+08:00"
+    },
+    "02aeac39adc6f960": {
+      "title": "Geely Care+",
+      "url": "https://global.geely.com/en/after-sales-service",
+      "seen_at": "2026-08-17T07:47:55.662724+08:00"
+    },
+    "38a447b2a46a36fe": {
+      "title": "Geely EX5",
+      "url": "https://global.geely.com/digital/3d/en/ex5",
+      "seen_at": "2026-08-17T07:47:55.662724+08:00"
     }
   },
   "delivered": [
@@ -1192,7 +1262,98 @@
       "url": "https://www.theverge.com/tech/980359/ground-truth-justin-blinder-housing-affordable-bike-pedal",
       "event_key": "Ford|纯电|when housing is unaffordable this artist’s device makes pedaling harder",
       "delivered_on": "2026-08-16"
+    },
+    {
+      "item_id": "3581b895aea46391",
+      "title": "魏牌V8X上市，上汽大众ID.ERA 5S预售｜一周车闻 从当前市场表现来看，魏牌亟需制造出一款爆款产品来撬动市场份额，而20万元级的大五座SUV市场为主流赛道。 6221 昨天 14:15",
+      "url": "https://www.yicai.com/news/103319934.html",
+      "event_key": "XPENG|市场|魏牌v8x上市 上汽大众id.era 5s预售 一周车闻 从当前市场表现来看 魏牌亟需制造出一款爆款产品来撬动市场份额 而20万元级的大五座suv市场为主流赛道 6221 昨天 1",
+      "delivered_on": "2026-08-17"
+    },
+    {
+      "item_id": "1b353dd95d1fe83d",
+      "title": "TechCrunch Mobility: The shifting flight path of electric air taxis",
+      "url": "https://techcrunch.com/2026/08/16/techcrunch-mobility-the-shifting-flight-path-of-electric-air-taxis/",
+      "event_key": "Toyota|纯电|techcrunch mobility the shifting flight path of electric air taxis",
+      "delivered_on": "2026-08-17"
+    },
+    {
+      "item_id": "36fb9b56ab3131ea",
+      "title": "比亚迪连上两款新车换打法，电池产能成关注点 第二代刀片电池产能受关注。 29192 08-15 20:34",
+      "url": "https://www.yicai.com/news/103319830.html",
+      "event_key": "BYD|市场|比亚迪连上两款新车换打法 电池产能成关注点 第二代刀片电池产能受关注 29192 08 15 20 34",
+      "delivered_on": "2026-08-17"
+    },
+    {
+      "item_id": "77155a2baa41ce59",
+      "title": "MINI Strengthens Its Global Presence: Fully Electric Debut in Pakistan and Return to Jordan.",
+      "url": "https://www.press.bmwgroup.com/global/article/detail/T0460020EN/mini-strengthens-its-global-presence:-fully-electric-debut-in-pakistan-and-return-to-jordan",
+      "event_key": "BMW|市场|mini strengthens its global presence fully electric debut in pakistan and return to jordan",
+      "delivered_on": "2026-08-17"
+    },
+    {
+      "item_id": "80e40dd471e47340",
+      "title": "08.07.2026 Press Release BMW iX3 achieves highest “five star” rating in first Euro NCAP test since introduction of new, more stringent assessment standard.",
+      "url": "https://www.press.bmwgroup.com/global/article/detail/T0459155EN/bmw-ix3-achieves-highest-“five-star”-rating-in-first-euro-ncap-test-since-introduction-of-new-more-stringent-assessment-standard",
+      "event_key": "BMW|纯电|08.07.2026 press release bmw ix3 achieves highest five star rating in first euro ncap test",
+      "delivered_on": "2026-08-17"
+    },
+    {
+      "item_id": "7fd1e1d09927bd8b",
+      "title": "Taycan",
+      "url": "https://newsroom.porsche.com/en/products/taycan.html",
+      "event_key": "Audi|纯电|taycan",
+      "delivered_on": "2026-08-17"
+    },
+    {
+      "item_id": "303117e644c63eeb",
+      "title": "Macan",
+      "url": "https://newsroom.porsche.com/en/products/macan.html",
+      "event_key": "Audi|纯电|macan",
+      "delivered_on": "2026-08-17"
+    },
+    {
+      "item_id": "02aeac39adc6f960",
+      "title": "Geely Care+",
+      "url": "https://global.geely.com/en/after-sales-service",
+      "event_key": "Geely||geely care+",
+      "delivered_on": "2026-08-17"
+    },
+    {
+      "item_id": "fb3bdfe786a1fcda",
+      "title": "小马智行计划在欧洲五城部署超2000辆Robotaxi；全国高速服务区建成充电设施8.54万个丨汽车早参",
+      "url": "https://www.nbd.com.cn/articles/2026-08-16/4543251.html",
+      "event_key": "|市场|小马智行计划在欧洲五城部署超2000辆robotaxi 全国高速服务区建成充电设施8.54万个丨汽车早参",
+      "delivered_on": "2026-08-17"
+    },
+    {
+      "item_id": "b851dab944661ac6",
+      "title": "2026 E-Town机器人消费节启动 四大场景打造“机器人消费”新地标",
+      "url": "https://www.beijing.gov.cn/ywdt/gzdt/202608/t20260816_4824564.html",
+      "event_key": "|市场|2026 e town机器人消费节启动 四大场景打造 机器人消费 新地标",
+      "delivered_on": "2026-08-17"
+    },
+    {
+      "item_id": "c9537f229f6d6c1f",
+      "title": "World’s largest carmakers seek to avert motor oil crisis",
+      "url": "https://www.ft.com/content/161ee092-d2b6-4375-a853-e7a6fbee60e2",
+      "event_key": "|纯电|world’s largest carmakers seek to avert motor oil crisis",
+      "delivered_on": "2026-08-17"
+    },
+    {
+      "item_id": "ddcefd61426c224c",
+      "title": "E周看点 | 保时捷将联手小鹏碳减排；大众新合资电池公司落地大连",
+      "url": "https://auto.gasgoo.com/news/202608/16I70469292C501.shtml",
+      "event_key": "XPENG|技术|e周看点 保时捷将联手小鹏碳减排 大众新合资电池公司落地大连",
+      "delivered_on": "2026-08-17"
+    },
+    {
+      "item_id": "6ce427f512e201f7",
+      "title": "Events",
+      "url": "https://techcrunch.com/events/",
+      "event_key": "|纯电|events",
+      "delivered_on": "2026-08-17"
     }
   ],
-  "last_run": "2026-08-16T07:47:55.462379+08:00"
+  "last_run": "2026-08-17T07:47:55.662724+08:00"
 }
