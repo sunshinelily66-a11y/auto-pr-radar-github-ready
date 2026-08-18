@@ -29,6 +29,24 @@ class ConfigTest(unittest.TestCase):
         for event in cfg["events"]:
             self.assertRegex(str(event["date"]), r"^\d{4}-\d{2}-\d{2}$")
 
+    def test_domestic_competitor_sales_sources_present(self):
+        cfg = yaml.safe_load(
+            (ROOT / "config" / "sources.yaml").read_text(encoding="utf-8")
+        )
+        ids = {s["id"] for s in cfg["sources"]}
+        required = {
+            "li_auto_ir",
+            "xpeng_ir",
+            "byd_sales_announcements",
+            "geely_auto_press",
+            "seres_sales_report",
+            "avatr_newscenter",
+            "zeekr_group_news",
+            "hima_official",
+        }
+        self.assertTrue(required.issubset(ids))
+
+
 
 if __name__ == "__main__":
     unittest.main()
