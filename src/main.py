@@ -78,6 +78,11 @@ class Radar:
         self.topics_cfg = self._load_yaml(self.config_dir / "topics.yaml")
         self.companies_cfg = self._load_yaml(self.config_dir / "companies.yaml")
         self.calendar_cfg = self._load_yaml(self.config_dir / "calendar.yaml")
+        self.company_meta = {
+            row.get("name"): row
+            for row in self.companies_cfg.get("companies", [])
+            if row.get("name")
+        }
 
         self.settings = self.sources_cfg.get("settings", {})
         self.session = requests.Session()
@@ -1467,20 +1472,68 @@ class Radar:
             reverse=True,
         )
 
+    @staticmethod
+    def _sales_signal(item: Item) -> bool:
+        """判断是否属于销量/交付/产销信息，既覆盖协会数据，也覆盖竞品官方月报。"""
+        title = item.title or ""
+        blob = f"{item.title} {item.snippet} {item.text[:2200]}"
+        title_pattern = re.compile(
+            r"销量|交付量|交付.*(?:辆|台)|月销|产销快报|零售量|批发量|"
+            r"sales volume|delivery results|deliveries|units sold|vehicle sales",
+            re.I,
+        )
+        data_pattern = re.compile(
+            r"同比|环比|yoy|mom|market share|渗透率|累计交付|累计销量",
+            re.I,
+        )
+        return bool(title_pattern.search(title) or (title_pattern.search(blob) and data_pattern.search(blob)))
+
+    @staticmethod
+    def _action_signal(item: Item) -> bool:
+        """产品、价格、技术、战略、组织和全球化等竞品动作。"""
+        title = item.title or ""
+        pattern = re.compile(
+            r"上市|预售|发布|首发|改款|换代|降价|涨价|权益|价格|"
+            r"智驾|自动驾驶|芯片|电池|快充|超充|充电|换电|技术|"
+            r"战略|合作|投资|工厂|产能|出海|海外|财报|业绩|组织|高管|召回|"
+            r"launch|pre-sale|unveil|price|technology|autonomous|battery|charging|"
+            r"strategy|partnership|factory|capacity|overseas|earnings|recall",
+            re.I,
+        )
+        return bool(pattern.search(title))
+
+    def _is_domestic_competitor(self, item: Item) -> bool:
+        return any(
+            self.company_meta.get(name, {}).get("country") == "CN"
+            for name in (item.companies or [])
+        )
+
+    def _is_overseas_competitor(self, item: Item) -> bool:
+        return any(
+            self.company_meta.get(name, {}).get("country") not in (None, "CN")
+            for name in (item.companies or [])
+        )
+
     def select_report_items(
         self,
         items: list[Item],
     ) -> dict[str, list[Item]]:
-        used: set[str] = set()
+        """
+        V5.1：各栏目独立选取。
 
-        def pick(predicate, limit):
+        旧版 high 会先占用条目，导致同一条国内竞品新闻进入“今日必须知道”后，
+        反而无法进入“竞品动作”。现在 high 作为摘要，可以与专题栏目重叠。
+        """
+        def pick(predicate, limit, exclude_ids=None):
+            exclude_ids = exclude_ids or set()
             chosen = []
+            local_seen = set()
             for item in items:
-                if item.id in used:
+                if item.id in exclude_ids or item.id in local_seen:
                     continue
                 if predicate(item):
                     chosen.append(item)
-                    used.add(item.id)
+                    local_seen.add(item.id)
                 if len(chosen) >= limit:
                     break
             return chosen
@@ -1489,18 +1542,60 @@ class Radar:
             lambda x: x.priority in ("S", "A"),
             5,
         )
+
+        # 市场总盘：协会、统计、政策执行后的市场数据等。
         market = pick(
-            lambda x: x.source_category == "market",
+            lambda x: x.source_category == "market" and not self._sales_signal(x) is False,
+            6,
+        )
+        if len(market) < 4:
+            market = pick(
+                lambda x: x.source_category == "market",
+                6,
+            )
+
+        # 竞品销量：官方月度交付/产销 + 高质量媒体中带明确竞品和销量信号的内容。
+        competitor_sales = pick(
+            lambda x: bool(x.companies)
+            and self._sales_signal(x)
+            and x.source_category in ("competitor", "industry_news", "market"),
+            8,
+        )
+
+        # 竞品动作优先保证国内覆盖，避免海外官方源因为结构稳定而占满配额。
+        domestic_actions = pick(
+            lambda x: bool(x.companies)
+            and self._is_domestic_competitor(x)
+            and self._action_signal(x)
+            and not self._sales_signal(x),
             5,
         )
-        competitor = pick(
-            lambda x: x.source_category == "competitor",
-            5,
+        overseas_actions = pick(
+            lambda x: bool(x.companies)
+            and self._is_overseas_competitor(x)
+            and self._action_signal(x)
+            and not self._sales_signal(x),
+            2,
+            exclude_ids={i.id for i in domestic_actions},
         )
+
+        # 如果某天动作类标题很少，再用“涉及竞品的高相关信息”补齐，但仍国内优先。
+        if len(domestic_actions) < 3:
+            supplement = pick(
+                lambda x: bool(x.companies)
+                and self._is_domestic_competitor(x)
+                and x.source_category in ("competitor", "industry_news")
+                and not self._sales_signal(x),
+                5 - len(domestic_actions),
+                exclude_ids={i.id for i in domestic_actions},
+            )
+            domestic_actions.extend(supplement)
+
+        competitor = domestic_actions + overseas_actions
+
         policy_industry = pick(
-            lambda x: x.source_category
-            in ("policy", "industry_news"),
-            5,
+            lambda x: x.source_category in ("policy", "industry_news"),
+            6,
         )
 
         ideas = [
@@ -1512,6 +1607,7 @@ class Radar:
         return {
             "high": high,
             "market": market,
+            "competitor_sales": competitor_sales,
             "competitor": competitor,
             "policy_industry": policy_industry,
             "ideas": ideas,
@@ -1527,6 +1623,7 @@ class Radar:
         for key in (
             "high",
             "market",
+            "competitor_sales",
             "competitor",
             "policy_industry",
             "ideas",
@@ -1581,21 +1678,26 @@ class Radar:
         )
         self._section(
             lines,
-            "02 市场变化",
+            "02 市场总盘",
             selection["market"],
         )
         self._section(
             lines,
-            "03 竞品动作",
+            "03 竞品销量",
+            selection["competitor_sales"],
+        )
+        self._section(
+            lines,
+            "04 竞品动作（国内优先）",
             selection["competitor"],
         )
         self._section(
             lines,
-            "04 政策 / 行业变量",
+            "05 政策 / 行业变量",
             selection["policy_industry"],
         )
 
-        lines += ["## 05 潜在传播选题", ""]
+        lines += ["## 06 潜在传播选题", ""]
 
         if not selection["ideas"]:
             lines.append(
@@ -1705,8 +1807,9 @@ class Radar:
     ) -> str:
         sections = [
             ("今日必须知道", selection["high"][:3]),
-            ("市场变化", selection["market"][:3]),
-            ("竞品动作", selection["competitor"][:3]),
+            ("市场总盘", selection["market"][:3]),
+            ("竞品销量", selection["competitor_sales"][:5]),
+            ("竞品动作（国内优先）", selection["competitor"][:5]),
             (
                 "政策 / 行业变量",
                 selection["policy_industry"][:3],
