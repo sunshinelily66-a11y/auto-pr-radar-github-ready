@@ -221,3 +221,17 @@ topics:
     - 高净值
     - 购车需求
     - 消费信心
+  competitor_sales:
+    name: 竞品销量
+    weight: 5
+    keywords:
+    - 交付量
+    - 销量
+    - 产销快报
+    - 月销
+    - 零售量
+    - 批发量
+    - sales volume
+    - delivery results
+    - deliveries
+    - units sold
