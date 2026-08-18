@@ -360,6 +360,29 @@ sources:
   - battery electric
   - extended-range
   - BEV
+  - 销量
+  - 交付
+  - 月销
+  - 上市
+  - 预售
+  - 发布
+  - 价格
+  - 权益
+  - 降价
+  - 技术
+  - 智驾
+  - 电池
+  - 充电
+  - 合作
+  - 出海
+  - 财报
+  - sales
+  - delivery
+  - launch
+  - price
+  - technology
+  - charging
+  - earnings
 - id: xpeng_ir
   name: XPENG IR
   category: competitor
@@ -377,6 +400,28 @@ sources:
   - vehicle
   - autonomous
   - charging
+  - 销量
+  - 交付
+  - 月销
+  - 上市
+  - 预售
+  - 发布
+  - 价格
+  - 权益
+  - 降价
+  - 技术
+  - 智驾
+  - 电池
+  - 充电
+  - 合作
+  - 出海
+  - 财报
+  - sales
+  - delivery
+  - launch
+  - price
+  - technology
+  - earnings
 - id: xiaomi_ir
   name: Xiaomi Investor Relations
   category: competitor
@@ -393,6 +438,28 @@ sources:
   - YU7
   - results
   - earnings
+  - 销量
+  - 交付
+  - 月销
+  - 上市
+  - 预售
+  - 发布
+  - 价格
+  - 权益
+  - 降价
+  - 技术
+  - 智驾
+  - 电池
+  - 充电
+  - 合作
+  - 出海
+  - 财报
+  - sales
+  - delivery
+  - launch
+  - price
+  - technology
+  - charging
 - id: byd_news
   name: BYD Global News
   category: competitor
@@ -411,6 +478,25 @@ sources:
   - overseas
   - launch
   - BYD
+  - 销量
+  - 交付
+  - 月销
+  - 上市
+  - 预售
+  - 发布
+  - 价格
+  - 权益
+  - 降价
+  - 技术
+  - 智驾
+  - 电池
+  - 充电
+  - 合作
+  - 出海
+  - 财报
+  - delivery
+  - price
+  - earnings
   notes: 比亚迪官方全球新闻中心。
 - id: geely_global
   name: Geely Global
@@ -432,6 +518,26 @@ sources:
   - China
   - launch
   - technology
+  - 销量
+  - 交付
+  - 月销
+  - 上市
+  - 预售
+  - 发布
+  - 价格
+  - 权益
+  - 降价
+  - 技术
+  - 智驾
+  - 电池
+  - 充电
+  - 合作
+  - 出海
+  - 财报
+  - delivery
+  - price
+  - charging
+  - earnings
   notes: 覆盖吉利、银河及集团技术/全球化动态。
 - id: leapmotor
   name: Leapmotor Official
@@ -452,6 +558,25 @@ sources:
   - 技术
   - 海外
   - Stellantis
+  - 月销
+  - 预售
+  - 发布
+  - 价格
+  - 权益
+  - 降价
+  - 智驾
+  - 电池
+  - 充电
+  - 合作
+  - 出海
+  - 财报
+  - sales
+  - delivery
+  - launch
+  - price
+  - technology
+  - charging
+  - earnings
 - id: seres
   name: SERES Official
   category: competitor
@@ -470,6 +595,26 @@ sources:
   - 智驾
   - 华为
   - 产品
+  - 月销
+  - 上市
+  - 预售
+  - 发布
+  - 价格
+  - 权益
+  - 降价
+  - 技术
+  - 电池
+  - 充电
+  - 合作
+  - 出海
+  - 财报
+  - sales
+  - delivery
+  - launch
+  - price
+  - technology
+  - charging
+  - earnings
   notes: 用于跟踪问界/赛力斯经营与产品官方信息。
 - id: avatr
   name: AVATR Official
@@ -489,6 +634,27 @@ sources:
   - 智驾
   - 华为
   - 宁德时代
+  - 销量
+  - 交付
+  - 月销
+  - 预售
+  - 发布
+  - 价格
+  - 权益
+  - 降价
+  - 技术
+  - 电池
+  - 充电
+  - 合作
+  - 出海
+  - 财报
+  - sales
+  - delivery
+  - launch
+  - price
+  - technology
+  - charging
+  - earnings
 - id: voyah
   name: VOYAH Official
   category: competitor
@@ -506,6 +672,26 @@ sources:
   - 增程
   - 销量
   - 技术
+  - 交付
+  - 月销
+  - 预售
+  - 发布
+  - 价格
+  - 权益
+  - 降价
+  - 智驾
+  - 电池
+  - 充电
+  - 合作
+  - 出海
+  - 财报
+  - sales
+  - delivery
+  - launch
+  - price
+  - technology
+  - charging
+  - earnings
 - id: tesla_ir
   name: Tesla Investor Relations
   category: competitor
@@ -982,3 +1168,116 @@ sources:
   - 充电
   - 出海
   notes: 行业发布与政策/企业动态补充，需注意推广稿比例。
+- id: byd_sales_announcements
+  name: BYD Latest Announcements
+  category: competitor
+  source_level: S
+  method: html_index
+  url: https://www.bydglobal.com/cn/en/BYD_ENInvestor/InvestorNotice_mob.html
+  frequency: daily
+  priority: 5
+  include_keywords:
+  - PRODUCTION AND SALES VOLUME
+  - sales volume
+  - 新能源汽车
+  - 销量
+  - 产量
+  - MONTHLY
+  notes: 比亚迪官方投资者关系公告，重点补月度产销。
+- id: geely_auto_press
+  name: Geely Automobile Press Release
+  category: competitor
+  source_level: S
+  method: html_index
+  url: https://www.geelyauto.com.hk/category/press-release/
+  frequency: daily
+  priority: 5
+  include_keywords:
+  - TOTAL SALES VOLUME
+  - sales volume
+  - Geely
+  - ZEEKR
+  - Galaxy
+  - LYNK
+  - electric
+  - results
+  notes: 吉利汽车上市公司官方新闻，月度销量稳定发布。
+- id: seres_sales_report
+  name: SERES 产销快报
+  category: competitor
+  source_level: S
+  method: html_index
+  url: https://www.seres.cn/sales-production-report.html
+  frequency: daily
+  priority: 5
+  include_keywords:
+  - 产销快报
+  - 销量
+  - 产量
+  - 赛力斯
+  - 问界
+  - 新能源汽车
+  notes: 赛力斯官方产销快报专栏。
+- id: avatr_newscenter
+  name: AVATR 新闻中心
+  category: competitor
+  source_level: S
+  method: html_index
+  url: https://www.avatr.com/newscenter
+  frequency: daily
+  priority: 4
+  include_keywords:
+  - 阿维塔
+  - 上市
+  - 发布
+  - 预售
+  - 交付
+  - 销量
+  - 纯电
+  - 增程
+  - 智驾
+  - 技术
+  - 合作
+  notes: 阿维塔官方新闻中心。
+- id: zeekr_group_news
+  name: ZEEKR Group News
+  category: competitor
+  source_level: S
+  method: html_index
+  url: https://www.zeekrgroup.com/en/news
+  frequency: daily
+  priority: 5
+  include_keywords:
+  - Zeekr
+  - Lynk
+  - launch
+  - sale
+  - pre-sale
+  - delivery
+  - electric
+  - hybrid
+  - technology
+  notes: 极氪集团官方新闻，补产品、技术、品牌动作。
+- id: hima_official
+  name: 鸿蒙智行 HIMA 官方
+  category: competitor
+  source_level: S
+  method: html_index
+  url: https://hima.auto/
+  frequency: daily
+  priority: 5
+  include_keywords:
+  - 问界
+  - 智界
+  - 享界
+  - 尊界
+  - 尚界
+  - 上市
+  - 预售
+  - 新车
+  - 纯电
+  - 增程
+  - 智驾
+  - 充电
+  - 技术
+  notes: 鸿蒙智行官方站，补五界产品和技术动作；若首页列表不足，国内行业媒体作为补充。
