@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-22T07:50:52.109108+08:00",
+  "checked_at": "2026-08-23T07:48:12.533424+08:00",
   "sources": [
     {
       "source_id": "cada",
@@ -13,7 +13,7 @@
       "candidate_links": 20,
       "keyword_hits": 70,
       "latest_visible_date": "2026-03-09",
-      "elapsed_ms": 2267,
+      "elapsed_ms": 2347,
       "error": ""
     },
     {
@@ -28,7 +28,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 2136,
+      "elapsed_ms": 2220,
       "error": ""
     },
     {
@@ -43,7 +43,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 14482,
+      "elapsed_ms": 14780,
       "error": "request failed"
     },
     {
@@ -58,7 +58,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 1057,
+      "elapsed_ms": 678,
       "error": ""
     },
     {
@@ -73,7 +73,7 @@
       "candidate_links": 10,
       "keyword_hits": 18,
       "latest_visible_date": "2026-08-21",
-      "elapsed_ms": 1960,
+      "elapsed_ms": 2447,
       "error": ""
     },
     {
@@ -88,7 +88,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 1401,
+      "elapsed_ms": 1088,
       "error": ""
     },
     {
@@ -103,7 +103,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 1415,
+      "elapsed_ms": 1611,
       "error": ""
     },
     {
@@ -118,7 +118,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 2495,
+      "elapsed_ms": 4164,
       "error": ""
     },
     {
@@ -133,7 +133,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 1792,
+      "elapsed_ms": 2050,
       "error": ""
     },
     {
@@ -148,7 +148,7 @@
       "candidate_links": 17,
       "keyword_hits": 24,
       "latest_visible_date": null,
-      "elapsed_ms": 1868,
+      "elapsed_ms": 2270,
       "error": ""
     },
     {
@@ -163,7 +163,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 2766,
+      "elapsed_ms": 9567,
       "error": ""
     },
     {
@@ -178,7 +178,7 @@
       "candidate_links": 1,
       "keyword_hits": 1,
       "latest_visible_date": null,
-      "elapsed_ms": 2300,
+      "elapsed_ms": 2589,
       "error": ""
     },
     {
@@ -193,7 +193,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 1943,
+      "elapsed_ms": 2073,
       "error": ""
     },
     {
@@ -208,7 +208,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 1975,
+      "elapsed_ms": 1911,
       "error": ""
     },
     {
@@ -223,7 +223,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 1311,
+      "elapsed_ms": 1115,
       "error": "request failed"
     },
     {
@@ -238,7 +238,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 14855,
+      "elapsed_ms": 21414,
       "error": "request failed"
     },
     {
@@ -247,13 +247,13 @@
       "category": "policy",
       "source_level": "S",
       "url": "https://www.jiangsu.gov.cn/",
-      "status": "empty",
+      "status": "ok",
       "http_status": 200,
       "robots": "allowed",
-      "candidate_links": 0,
-      "keyword_hits": 0,
+      "candidate_links": 1,
+      "keyword_hits": 1,
       "latest_visible_date": null,
-      "elapsed_ms": 1915,
+      "elapsed_ms": 2049,
       "error": ""
     },
     {
@@ -268,7 +268,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 3306,
+      "elapsed_ms": 3813,
       "error": ""
     },
     {
@@ -283,7 +283,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 14138,
+      "elapsed_ms": 14155,
       "error": "request failed"
     },
     {
@@ -298,7 +298,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 2580,
+      "elapsed_ms": 3158,
       "error": ""
     },
     {
@@ -313,7 +313,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 14383,
+      "elapsed_ms": 14519,
       "error": "request failed"
     },
     {
@@ -328,7 +328,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 14534,
+      "elapsed_ms": 14564,
       "error": "request failed"
     },
     {
@@ -343,7 +343,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 14261,
+      "elapsed_ms": 14313,
       "error": "request failed"
     },
     {
@@ -358,7 +358,7 @@
       "candidate_links": 2,
       "keyword_hits": 2,
       "latest_visible_date": null,
-      "elapsed_ms": 9355,
+      "elapsed_ms": 9433,
       "error": ""
     },
     {
@@ -373,7 +373,7 @@
       "candidate_links": 14,
       "keyword_hits": 26,
       "latest_visible_date": "2026-04-18",
-      "elapsed_ms": 1617,
+      "elapsed_ms": 1687,
       "error": ""
     },
     {
@@ -388,7 +388,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 7623,
+      "elapsed_ms": 1628,
       "error": ""
     },
     {
@@ -403,7 +403,7 @@
       "candidate_links": 6,
       "keyword_hits": 6,
       "latest_visible_date": "2026-08-17",
-      "elapsed_ms": 2307,
+      "elapsed_ms": 1852,
       "error": ""
     },
     {
@@ -418,7 +418,7 @@
       "candidate_links": 15,
       "keyword_hits": 20,
       "latest_visible_date": null,
-      "elapsed_ms": 1528,
+      "elapsed_ms": 1694,
       "error": ""
     },
     {
@@ -433,7 +433,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 1833,
+      "elapsed_ms": 1142,
       "error": ""
     },
     {
@@ -448,7 +448,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 319,
+      "elapsed_ms": 378,
       "error": "request failed"
     },
     {
@@ -460,10 +460,10 @@
       "status": "ok",
       "http_status": 200,
       "robots": "allowed",
-      "candidate_links": 20,
-      "keyword_hits": 27,
+      "candidate_links": 17,
+      "keyword_hits": 21,
       "latest_visible_date": "2026-11-22",
-      "elapsed_ms": 2117,
+      "elapsed_ms": 648,
       "error": ""
     },
     {
@@ -478,7 +478,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 774,
+      "elapsed_ms": 404,
       "error": ""
     },
     {
@@ -493,7 +493,7 @@
       "candidate_links": 16,
       "keyword_hits": 20,
       "latest_visible_date": null,
-      "elapsed_ms": 2011,
+      "elapsed_ms": 1877,
       "error": ""
     },
     {
@@ -508,7 +508,7 @@
       "candidate_links": 20,
       "keyword_hits": 75,
       "latest_visible_date": "2026-07-10",
-      "elapsed_ms": 1812,
+      "elapsed_ms": 1009,
       "error": ""
     },
     {
@@ -520,10 +520,10 @@
       "status": "ok",
       "http_status": 200,
       "robots": "allowed",
-      "candidate_links": 13,
-      "keyword_hits": 14,
+      "candidate_links": 12,
+      "keyword_hits": 13,
       "latest_visible_date": null,
-      "elapsed_ms": 1704,
+      "elapsed_ms": 1432,
       "error": ""
     },
     {
@@ -538,7 +538,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 575,
+      "elapsed_ms": 697,
       "error": "request failed"
     },
     {
@@ -553,7 +553,7 @@
       "candidate_links": 2,
       "keyword_hits": 2,
       "latest_visible_date": null,
-      "elapsed_ms": 1863,
+      "elapsed_ms": 1187,
       "error": ""
     },
     {
@@ -568,7 +568,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 456,
+      "elapsed_ms": 245,
       "error": "request failed"
     },
     {
@@ -583,7 +583,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 14223,
+      "elapsed_ms": 14354,
       "error": "request failed"
     },
     {
@@ -598,7 +598,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 493,
+      "elapsed_ms": 349,
       "error": ""
     },
     {
@@ -611,9 +611,9 @@
       "http_status": 200,
       "robots": "allowed",
       "candidate_links": 20,
-      "keyword_hits": 41,
+      "keyword_hits": 48,
       "latest_visible_date": null,
-      "elapsed_ms": 1345,
+      "elapsed_ms": 486,
       "error": ""
     },
     {
@@ -625,10 +625,10 @@
       "status": "ok",
       "http_status": 200,
       "robots": "allowed",
-      "candidate_links": 18,
-      "keyword_hits": 21,
+      "candidate_links": 19,
+      "keyword_hits": 22,
       "latest_visible_date": null,
-      "elapsed_ms": 275,
+      "elapsed_ms": 237,
       "error": ""
     },
     {
@@ -641,9 +641,9 @@
       "http_status": 200,
       "robots": "allowed",
       "candidate_links": 20,
-      "keyword_hits": 43,
+      "keyword_hits": 44,
       "latest_visible_date": null,
-      "elapsed_ms": 196,
+      "elapsed_ms": 402,
       "error": ""
     },
     {
@@ -658,7 +658,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 4533,
+      "elapsed_ms": 4954,
       "error": ""
     },
     {
@@ -673,7 +673,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 1601,
+      "elapsed_ms": 1872,
       "error": ""
     },
     {
@@ -682,14 +682,14 @@
       "category": "market",
       "source_level": "S",
       "url": "https://www.evcipa.org.cn/",
-      "status": "empty",
-      "http_status": 200,
+      "status": "http_failed",
+      "http_status": null,
       "robots": "allowed",
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 33001,
-      "error": ""
+      "elapsed_ms": 113004,
+      "error": "request failed"
     },
     {
       "source_id": "gacc_stats",
@@ -703,7 +703,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 1560,
+      "elapsed_ms": 2815,
       "error": "request failed"
     },
     {
@@ -712,14 +712,14 @@
       "category": "industry_news",
       "source_level": "A",
       "url": "https://www.yicai.com/news/automobile/",
-      "status": "ok",
-      "http_status": 200,
+      "status": "http_failed",
+      "http_status": null,
       "robots": "allowed",
-      "candidate_links": 20,
-      "keyword_hits": 33,
+      "candidate_links": 0,
+      "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 2183,
-      "error": ""
+      "elapsed_ms": 8243,
+      "error": "request failed"
     },
     {
       "source_id": "cls_auto",
@@ -733,7 +733,7 @@
       "candidate_links": 20,
       "keyword_hits": 20,
       "latest_visible_date": null,
-      "elapsed_ms": 2768,
+      "elapsed_ms": 2900,
       "error": ""
     },
     {
@@ -746,9 +746,9 @@
       "http_status": 200,
       "robots": "allowed",
       "candidate_links": 16,
-      "keyword_hits": 19,
+      "keyword_hits": 21,
       "latest_visible_date": null,
-      "elapsed_ms": 1923,
+      "elapsed_ms": 1375,
       "error": ""
     },
     {
@@ -760,10 +760,10 @@
       "status": "ok",
       "http_status": 200,
       "robots": "allowed",
-      "candidate_links": 9,
-      "keyword_hits": 13,
+      "candidate_links": 5,
+      "keyword_hits": 6,
       "latest_visible_date": null,
-      "elapsed_ms": 2553,
+      "elapsed_ms": 2779,
       "error": ""
     },
     {
@@ -778,7 +778,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 2091,
+      "elapsed_ms": 2008,
       "error": ""
     },
     {
@@ -790,10 +790,10 @@
       "status": "ok",
       "http_status": 200,
       "robots": "allowed",
-      "candidate_links": 6,
-      "keyword_hits": 6,
+      "candidate_links": 5,
+      "keyword_hits": 5,
       "latest_visible_date": null,
-      "elapsed_ms": 2473,
+      "elapsed_ms": 2983,
       "error": ""
     },
     {
@@ -808,7 +808,7 @@
       "candidate_links": 19,
       "keyword_hits": 29,
       "latest_visible_date": null,
-      "elapsed_ms": 2293,
+      "elapsed_ms": 2151,
       "error": ""
     },
     {
@@ -822,8 +822,8 @@
       "robots": "allowed",
       "candidate_links": 18,
       "keyword_hits": 20,
-      "latest_visible_date": "2026-08-20",
-      "elapsed_ms": 2557,
+      "latest_visible_date": "2026-08-21",
+      "elapsed_ms": 2166,
       "error": ""
     },
     {
@@ -835,10 +835,10 @@
       "status": "ok",
       "http_status": 200,
       "robots": "allowed",
-      "candidate_links": 5,
-      "keyword_hits": 5,
+      "candidate_links": 7,
+      "keyword_hits": 7,
       "latest_visible_date": null,
-      "elapsed_ms": 2202,
+      "elapsed_ms": 1744,
       "error": ""
     },
     {
@@ -853,7 +853,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 2789,
+      "elapsed_ms": 3154,
       "error": ""
     },
     {
@@ -868,7 +868,7 @@
       "candidate_links": 12,
       "keyword_hits": 25,
       "latest_visible_date": null,
-      "elapsed_ms": 4013,
+      "elapsed_ms": 4182,
       "error": ""
     },
     {
@@ -883,7 +883,7 @@
       "candidate_links": 12,
       "keyword_hits": 22,
       "latest_visible_date": "2026-07-06",
-      "elapsed_ms": 1442,
+      "elapsed_ms": 1356,
       "error": ""
     },
     {
@@ -898,7 +898,7 @@
       "candidate_links": 20,
       "keyword_hits": 571,
       "latest_visible_date": null,
-      "elapsed_ms": 1698,
+      "elapsed_ms": 1628,
       "error": ""
     },
     {
@@ -913,7 +913,7 @@
       "candidate_links": 6,
       "keyword_hits": 16,
       "latest_visible_date": null,
-      "elapsed_ms": 1935,
+      "elapsed_ms": 3873,
       "error": ""
     },
     {
@@ -928,7 +928,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 3197,
+      "elapsed_ms": 2783,
       "error": ""
     }
   ]
