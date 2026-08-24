@@ -1774,6 +1774,71 @@
       "title": "$100 Best Buy gift cards will be $60 at stores Saturday",
       "url": "https://www.theverge.com/gadgets/982513/best-buy-gift-card-in-store-deal",
       "seen_at": "2026-08-23T07:48:12.533424+08:00"
+    },
+    "0ac7394346dfba83": {
+      "title": "All articles for BMW i",
+      "url": "https://www.press.bmwgroup.com/global/article/search/tag:134",
+      "seen_at": "2026-08-24T07:48:45.304214+08:00"
+    },
+    "5d941b3e50e49b02": {
+      "title": "新能源重卡的冰火两重天",
+      "url": "https://www.36kr.com/p/3947484114867841",
+      "seen_at": "2026-08-24T07:48:45.304214+08:00"
+    },
+    "8bbc3e592ee628a8": {
+      "title": "蔚来李斌：判断科创企业值不值钱的终极指标，是盈利能力 李斌认为，企业将来最重要的资产是和用户之间的关系。 15955 昨天 18:29",
+      "url": "https://www.yicai.com/news/103329847.html",
+      "seen_at": "2026-08-24T07:48:45.304214+08:00"
+    },
+    "8992aec8bab2a217": {
+      "title": "实探｜办公室大片工位闲置、几十个总监集中在外求职，追觅的造车梦遇挫 但这场声势浩大的“造车远征”，在不到一年时间便迎来急转向。 50210 08-22 19:48",
+      "url": "https://www.yicai.com/news/103329520.html",
+      "seen_at": "2026-08-24T07:48:45.304214+08:00"
+    },
+    "04a1fc066492cdf8": {
+      "title": "每经热评丨从成都车展看汽车产业的“林”“树”之变，“链式竞争”才是长久考验",
+      "url": "https://www.nbd.com.cn/articles/2026-08-23/4551657.html",
+      "seen_at": "2026-08-24T07:48:45.304214+08:00"
+    },
+    "d2473629e34a3ccb": {
+      "title": "E周看点｜小米Q2汽车业务收入239亿元；蔚来第三代ES8第14万台交付",
+      "url": "https://auto.gasgoo.com/news/202608/23I70470146C501.shtml",
+      "seen_at": "2026-08-24T07:48:45.304214+08:00"
+    },
+    "35ac7f9e9a93606d": {
+      "title": "那些忘不掉的过去，究竟是前行路上的沉重包袱，还是鼓舞人心的精神火种，要看当下和未来的抉择。",
+      "url": "https://www.36kr.com/p/3951384604998786",
+      "seen_at": "2026-08-24T07:48:45.304214+08:00"
+    },
+    "77ad1a8d5f521943": {
+      "title": "2026世界机器人大会迎公众日 机器人消费街上演科技体验热",
+      "url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202608/t20260823_4833190.html",
+      "seen_at": "2026-08-24T07:48:45.304214+08:00"
+    },
+    "5d22ad19a6209ce4": {
+      "title": "TechCrunch Mobility: The custom chip driving Waymo’s robotaxi ambitions",
+      "url": "https://techcrunch.com/2026/08/23/techcrunch-mobility-the-custom-chip-driving-waymos-robotaxi-ambitions/",
+      "seen_at": "2026-08-24T07:48:45.304214+08:00"
+    },
+    "72606907230ef39d": {
+      "title": "领克20首次亮相 上汽大众推出首款轿车ID. ERA 5S | 2026成都车展新车盘点",
+      "url": "https://www.jiemian.com/article/14970284.html",
+      "seen_at": "2026-08-24T07:48:45.304214+08:00"
+    },
+    "ce12fad4f75b9677": {
+      "title": "东风日产就部分线上功能无法使用致歉；特斯拉Cybercab发布会定档9月3日丨汽车早参",
+      "url": "https://www.nbd.com.cn/articles/2026-08-23/4551637.html",
+      "seen_at": "2026-08-24T07:48:45.304214+08:00"
+    },
+    "f61a8c70f7c013bb": {
+      "title": "【盖世快讯】特斯拉回应近300万辆召回；理想汤靖谈汽车门把手“应急”与“紧急”设计",
+      "url": "https://auto.gasgoo.com/news/202608/24I70470145C501.shtml",
+      "seen_at": "2026-08-24T07:48:45.304214+08:00"
+    },
+    "48d7fd01f6e48a17": {
+      "title": "AIVA总裁李博：汽车是当下物理AI重要的“身体”之一",
+      "url": "https://www.news.cn/auto/20260823/086f03a3687c4720953b412f6feada38/c.html",
+      "seen_at": "2026-08-24T07:48:45.304214+08:00"
     }
   },
   "delivered": [
@@ -2917,7 +2982,77 @@
       "url": "https://www.36kr.com/p/3948697176112260",
       "event_key": "HUD|安全监管讨论|2026-08-23",
       "delivered_on": "2026-08-23"
+    },
+    {
+      "item_id": "0ac7394346dfba83",
+      "title": "All articles for BMW i",
+      "url": "https://www.press.bmwgroup.com/global/article/search/tag:134",
+      "event_key": "BMW|Neue Klasse iX3量产与安全评级|2026年7-8月",
+      "delivered_on": "2026-08-24"
+    },
+    {
+      "item_id": "5d941b3e50e49b02",
+      "title": "新能源重卡的冰火两重天",
+      "url": "https://www.36kr.com/p/3947484114867841",
+      "event_key": "新能源重卡|市场分化与散户困境|2026-08-24",
+      "delivered_on": "2026-08-24"
+    },
+    {
+      "item_id": "8bbc3e592ee628a8",
+      "title": "蔚来李斌：判断科创企业值不值钱的终极指标，是盈利能力 李斌认为，企业将来最重要的资产是和用户之间的关系。 15955 昨天 18:29",
+      "url": "https://www.yicai.com/news/103329847.html",
+      "event_key": "蔚来|李斌谈盈利指标与行业阶段|2026-08-22",
+      "delivered_on": "2026-08-24"
+    },
+    {
+      "item_id": "8992aec8bab2a217",
+      "title": "实探｜办公室大片工位闲置、几十个总监集中在外求职，追觅的造车梦遇挫 但这场声势浩大的“造车远征”，在不到一年时间便迎来急转向。 50210 08-22 19:48",
+      "url": "https://www.yicai.com/news/103329520.html",
+      "event_key": "追觅|造车项目遇挫裁员|2026-08-22",
+      "delivered_on": "2026-08-24"
+    },
+    {
+      "item_id": "04a1fc066492cdf8",
+      "title": "每经热评丨从成都车展看汽车产业的“林”“树”之变，“链式竞争”才是长久考验",
+      "url": "https://www.nbd.com.cn/articles/2026-08-23/4551657.html",
+      "event_key": "成都车展|产业链专区与链式竞争|2026-08-23",
+      "delivered_on": "2026-08-24"
+    },
+    {
+      "item_id": "f61a8c70f7c013bb",
+      "title": "【盖世快讯】特斯拉回应近300万辆召回；理想汤靖谈汽车门把手“应急”与“紧急”设计",
+      "url": "https://auto.gasgoo.com/news/202608/24I70470145C501.shtml",
+      "event_key": "理想|汤靖谈门把手设计|2026年8月",
+      "delivered_on": "2026-08-24"
+    },
+    {
+      "item_id": "d2473629e34a3ccb",
+      "title": "E周看点｜小米Q2汽车业务收入239亿元；蔚来第三代ES8第14万台交付",
+      "url": "https://auto.gasgoo.com/news/202608/23I70470146C501.shtml",
+      "event_key": "零跑|进入哥伦比亚市场|2026年8月",
+      "delivered_on": "2026-08-24"
+    },
+    {
+      "item_id": "72606907230ef39d",
+      "title": "领克20首次亮相 上汽大众推出首款轿车ID. ERA 5S | 2026成都车展新车盘点",
+      "url": "https://www.jiemian.com/article/14970284.html",
+      "event_key": "成都车展|新车发布与市场趋势|2026-08-23",
+      "delivered_on": "2026-08-24"
+    },
+    {
+      "item_id": "ce12fad4f75b9677",
+      "title": "东风日产就部分线上功能无法使用致歉；特斯拉Cybercab发布会定档9月3日丨汽车早参",
+      "url": "https://www.nbd.com.cn/articles/2026-08-23/4551637.html",
+      "event_key": "东风日产|线上功能故障致歉|2026-08-24",
+      "delivered_on": "2026-08-24"
+    },
+    {
+      "item_id": "35ac7f9e9a93606d",
+      "title": "那些忘不掉的过去，究竟是前行路上的沉重包袱，还是鼓舞人心的精神火种，要看当下和未来的抉择。",
+      "url": "https://www.36kr.com/p/3951384604998786",
+      "event_key": "BBA|电动化转型与成都车展新车|2026-08-24",
+      "delivered_on": "2026-08-24"
     }
   ],
-  "last_run": "2026-08-23T07:48:12.533424+08:00"
+  "last_run": "2026-08-24T07:48:45.304214+08:00"
 }
