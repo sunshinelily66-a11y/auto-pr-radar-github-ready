@@ -2679,6 +2679,71 @@
       "title": "China’s actors written out of dramas as AI doubles ready to take their roles",
       "url": "https://www.ft.com/content/7117ff02-d495-4936-8f05-fa73a7a5c669",
       "seen_at": "2026-08-29T12:17:15.722288+08:00"
+    },
+    "565e8529a12d3450": {
+      "title": "2026年7月轿车/SUV车型销量榜",
+      "url": "https://auto.gasgoo.com/news/202608/28I70470635C110.shtml",
+      "seen_at": "2026-08-30T09:34:44.212194+08:00"
+    },
+    "d6cc2c329dfe8b7c": {
+      "title": "挣扎在盈亏线上的中国车企，被汇率带走过半利润",
+      "url": "https://www.36kr.com/p/3957680783277189",
+      "seen_at": "2026-08-30T09:34:44.212194+08:00"
+    },
+    "37e20c314208457d": {
+      "title": "零跑：利润指引大幅缩水，全靠出海破局？",
+      "url": "https://www.36kr.com/p/3954928308829312",
+      "seen_at": "2026-08-30T09:34:44.212194+08:00"
+    },
+    "e41add7f6800f20f": {
+      "title": "智驾最舒服的十年，结束了",
+      "url": "https://www.36kr.com/p/3957597019772551",
+      "seen_at": "2026-08-30T09:34:44.212194+08:00"
+    },
+    "335945cc47480b1f": {
+      "title": "30.07.2026 Speech Statement Dr. Milan Nedeljković, Chairman of the Board of Management of BMW AG, Conference Call Quarterly Report to 30 June 2026",
+      "url": "https://www.press.bmwgroup.com/global/article/detail/T0459740EN/statement-dr-milan-nedeljković-chairman-of-the-board-of-management-of-bmw-ag-conference-call-quarterly-report-to-30-june-2026",
+      "seen_at": "2026-08-30T09:34:44.212194+08:00"
+    },
+    "f409ba6247320694": {
+      "title": "纯电全球车，还能炸一波？",
+      "url": "https://www.36kr.com/p/3958493378247814",
+      "seen_at": "2026-08-30T09:34:44.212194+08:00"
+    },
+    "87dab83c492881eb": {
+      "title": "比亚迪大汉EV开启预售，长安CS55蓝鲸超擎混动上市｜一周车闻 2026成都车展新车扎堆。 6 10468 08-28 08:24",
+      "url": "https://www.yicai.com/news/103337672.html",
+      "seen_at": "2026-08-30T09:34:44.212194+08:00"
+    },
+    "e5ef88ebc037d6c7": {
+      "title": "“山寨车鼻祖”7年来首次盈利 汽车配件和门业营收占众泰总营收的85%。 36787 昨天 08:21",
+      "url": "https://www.yicai.com/news/103339594.html",
+      "seen_at": "2026-08-30T09:34:44.212194+08:00"
+    },
+    "91205cb0a1b69a4c": {
+      "title": "我省优化调整以旧换新地方自主品类",
+      "url": "https://www.jiangsu.gov.cn/art/2026/8/30/art_60095_11822478.html",
+      "seen_at": "2026-08-30T09:34:44.212194+08:00"
+    },
+    "ea43465e530da3f1": {
+      "title": "车企集体回归实体按键？触屏和按键到底该要哪个？",
+      "url": "https://www.36kr.com/p/3954351926908545",
+      "seen_at": "2026-08-30T09:34:44.212194+08:00"
+    },
+    "47209c4e6f745bc2": {
+      "title": "Anniversary in St. Louis: 20th BMW Championship kicks off with Pro-Am in support of Evans Scholars Foundation.",
+      "url": "https://www.press.bmwgroup.com/global/photo/compilation/T0460197EN/anniversary-in-st-louis:-20th-bmw-championship-kicks-off-with-pro-am-in-support-of-evans-scholars-foundation",
+      "seen_at": "2026-08-30T09:34:44.212194+08:00"
+    },
+    "b9891c8e3089cf90": {
+      "title": "US manufacturing is booming — but it’s no thanks to Trump’s tariffs",
+      "url": "https://www.ft.com/content/b625e314-ecf9-4385-a687-7a8f8c1bec23",
+      "seen_at": "2026-08-30T09:34:44.212194+08:00"
+    },
+    "2b6939aaa9e2867d": {
+      "title": "盖世周报 | 长城汽车上半年营收破千亿；天齐锂业净利暴增4925%",
+      "url": "https://auto.gasgoo.com/news/202608/30I70470610C109.shtml",
+      "seen_at": "2026-08-30T09:34:44.212194+08:00"
     }
   },
   "delivered": [
@@ -4354,7 +4419,63 @@
       "url": "https://www.yicai.com/news/103339593.html",
       "event_key": "长安汽车|净利润下滑与汇兑损失|2026H1",
       "delivered_on": "2026-08-29"
+    },
+    {
+      "item_id": "565e8529a12d3450",
+      "title": "2026年7月轿车/SUV车型销量榜",
+      "url": "https://auto.gasgoo.com/news/202608/28I70470635C110.shtml",
+      "event_key": "中国车市|7月轿车SUV销量榜发布|2026-07",
+      "delivered_on": "2026-08-30"
+    },
+    {
+      "item_id": "d6cc2c329dfe8b7c",
+      "title": "挣扎在盈亏线上的中国车企，被汇率带走过半利润",
+      "url": "https://www.36kr.com/p/3957680783277189",
+      "event_key": "中国车企汇兑损失|2026-H1",
+      "delivered_on": "2026-08-30"
+    },
+    {
+      "item_id": "37e20c314208457d",
+      "title": "零跑：利润指引大幅缩水，全靠出海破局？",
+      "url": "https://www.36kr.com/p/3954928308829312",
+      "event_key": "零跑下调利润指引|2026-Q2",
+      "delivered_on": "2026-08-30"
+    },
+    {
+      "item_id": "e41add7f6800f20f",
+      "title": "智驾最舒服的十年，结束了",
+      "url": "https://www.36kr.com/p/3957597019772551",
+      "event_key": "自动驾驶责任立法|2026-08",
+      "delivered_on": "2026-08-30"
+    },
+    {
+      "item_id": "335945cc47480b1f",
+      "title": "30.07.2026 Speech Statement Dr. Milan Nedeljković, Chairman of the Board of Management of BMW AG, Conference Call Quarterly Report to 30 June 2026",
+      "url": "https://www.press.bmwgroup.com/global/article/detail/T0459740EN/statement-dr-milan-nedeljković-chairman-of-the-board-of-management-of-bmw-ag-conference-call-quarterly-report-to-30-june-2026",
+      "event_key": "宝马下调业绩指引|2026-Q2",
+      "delivered_on": "2026-08-30"
+    },
+    {
+      "item_id": "f409ba6247320694",
+      "title": "纯电全球车，还能炸一波？",
+      "url": "https://www.36kr.com/p/3958493378247814",
+      "event_key": "奇瑞风云T7上市|2026-08",
+      "delivered_on": "2026-08-30"
+    },
+    {
+      "item_id": "87dab83c492881eb",
+      "title": "比亚迪大汉EV开启预售，长安CS55蓝鲸超擎混动上市｜一周车闻 2026成都车展新车扎堆。 6 10468 08-28 08:24",
+      "url": "https://www.yicai.com/news/103337672.html",
+      "event_key": "成都车展新车发布|2026-08",
+      "delivered_on": "2026-08-30"
+    },
+    {
+      "item_id": "ea43465e530da3f1",
+      "title": "车企集体回归实体按键？触屏和按键到底该要哪个？",
+      "url": "https://www.36kr.com/p/3954351926908545",
+      "event_key": "车企回归实体按键|2026-08",
+      "delivered_on": "2026-08-30"
     }
   ],
-  "last_run": "2026-08-29T12:17:15.722288+08:00"
+  "last_run": "2026-08-30T09:34:44.212194+08:00"
 }
