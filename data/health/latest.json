@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-05T09:18:46.872776+08:00",
+  "checked_at": "2026-09-06T09:16:50.041612+08:00",
   "sources": [
     {
       "source_id": "cada",
@@ -13,7 +13,7 @@
       "candidate_links": 20,
       "keyword_hits": 71,
       "latest_visible_date": "2026-03-09",
-      "elapsed_ms": 2262,
+      "elapsed_ms": 2066,
       "error": ""
     },
     {
@@ -28,7 +28,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 2314,
+      "elapsed_ms": 1878,
       "error": ""
     },
     {
@@ -43,7 +43,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 14416,
+      "elapsed_ms": 14366,
       "error": "request failed"
     },
     {
@@ -58,7 +58,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 528,
+      "elapsed_ms": 1112,
       "error": ""
     },
     {
@@ -73,7 +73,7 @@
       "candidate_links": 8,
       "keyword_hits": 11,
       "latest_visible_date": "2026-09-01",
-      "elapsed_ms": 2955,
+      "elapsed_ms": 1726,
       "error": ""
     },
     {
@@ -88,7 +88,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 976,
+      "elapsed_ms": 1402,
       "error": ""
     },
     {
@@ -103,7 +103,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 1723,
+      "elapsed_ms": 1623,
       "error": ""
     },
     {
@@ -118,7 +118,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 2946,
+      "elapsed_ms": 1674,
       "error": ""
     },
     {
@@ -133,7 +133,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 2275,
+      "elapsed_ms": 1776,
       "error": ""
     },
     {
@@ -148,7 +148,7 @@
       "candidate_links": 20,
       "keyword_hits": 31,
       "latest_visible_date": null,
-      "elapsed_ms": 1844,
+      "elapsed_ms": 1623,
       "error": ""
     },
     {
@@ -163,7 +163,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 10218,
+      "elapsed_ms": 1956,
       "error": ""
     },
     {
@@ -178,7 +178,7 @@
       "candidate_links": 1,
       "keyword_hits": 1,
       "latest_visible_date": null,
-      "elapsed_ms": 2841,
+      "elapsed_ms": 1761,
       "error": ""
     },
     {
@@ -190,10 +190,10 @@
       "status": "ok",
       "http_status": 200,
       "robots": "allowed",
-      "candidate_links": 4,
-      "keyword_hits": 4,
+      "candidate_links": 1,
+      "keyword_hits": 1,
       "latest_visible_date": "2026-09-04",
-      "elapsed_ms": 1601,
+      "elapsed_ms": 1847,
       "error": ""
     },
     {
@@ -208,7 +208,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 2601,
+      "elapsed_ms": 1371,
       "error": ""
     },
     {
@@ -223,7 +223,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 1752,
+      "elapsed_ms": 1224,
       "error": "request failed"
     },
     {
@@ -238,7 +238,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 15254,
+      "elapsed_ms": 15110,
       "error": "request failed"
     },
     {
@@ -253,7 +253,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 2109,
+      "elapsed_ms": 2067,
       "error": ""
     },
     {
@@ -268,7 +268,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 3823,
+      "elapsed_ms": 2828,
       "error": ""
     },
     {
@@ -283,7 +283,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 14315,
+      "elapsed_ms": 14164,
       "error": "request failed"
     },
     {
@@ -298,7 +298,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 2581,
+      "elapsed_ms": 1726,
       "error": ""
     },
     {
@@ -313,7 +313,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 14290,
+      "elapsed_ms": 14264,
       "error": "request failed"
     },
     {
@@ -328,7 +328,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 14622,
+      "elapsed_ms": 14581,
       "error": "request failed"
     },
     {
@@ -343,7 +343,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 14228,
+      "elapsed_ms": 14259,
       "error": "request failed"
     },
     {
@@ -352,14 +352,14 @@
       "category": "competitor",
       "source_level": "S",
       "url": "https://www.bydglobal.com/en/News.html",
-      "status": "ok",
-      "http_status": 200,
+      "status": "http_failed",
+      "http_status": null,
       "robots": "allowed",
-      "candidate_links": 2,
-      "keyword_hits": 2,
+      "candidate_links": 0,
+      "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 8769,
-      "error": ""
+      "elapsed_ms": 11154,
+      "error": "request failed"
     },
     {
       "source_id": "geely_global",
@@ -373,7 +373,7 @@
       "candidate_links": 14,
       "keyword_hits": 26,
       "latest_visible_date": "2026-04-18",
-      "elapsed_ms": 1677,
+      "elapsed_ms": 1777,
       "error": ""
     },
     {
@@ -388,7 +388,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 1612,
+      "elapsed_ms": 1244,
       "error": ""
     },
     {
@@ -403,7 +403,7 @@
       "candidate_links": 6,
       "keyword_hits": 6,
       "latest_visible_date": "2026-09-03",
-      "elapsed_ms": 2268,
+      "elapsed_ms": 1873,
       "error": ""
     },
     {
@@ -418,7 +418,7 @@
       "candidate_links": 15,
       "keyword_hits": 20,
       "latest_visible_date": null,
-      "elapsed_ms": 2136,
+      "elapsed_ms": 2285,
       "error": ""
     },
     {
@@ -433,7 +433,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 1363,
+      "elapsed_ms": 1212,
       "error": ""
     },
     {
@@ -448,7 +448,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 173,
+      "elapsed_ms": 472,
       "error": "request failed"
     },
     {
@@ -457,14 +457,14 @@
       "category": "competitor",
       "source_level": "S",
       "url": "https://www.press.bmwgroup.com/global",
-      "status": "ok",
-      "http_status": 200,
+      "status": "http_failed",
+      "http_status": null,
       "robots": "allowed",
-      "candidate_links": 20,
-      "keyword_hits": 42,
-      "latest_visible_date": "2026-11-22",
-      "elapsed_ms": 716,
-      "error": ""
+      "candidate_links": 0,
+      "keyword_hits": 0,
+      "latest_visible_date": null,
+      "elapsed_ms": 8334,
+      "error": "request failed"
     },
     {
       "source_id": "mercedes_media",
@@ -478,7 +478,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 262,
+      "elapsed_ms": 492,
       "error": ""
     },
     {
@@ -493,7 +493,7 @@
       "candidate_links": 20,
       "keyword_hits": 33,
       "latest_visible_date": null,
-      "elapsed_ms": 1643,
+      "elapsed_ms": 2698,
       "error": ""
     },
     {
@@ -508,7 +508,7 @@
       "candidate_links": 20,
       "keyword_hits": 59,
       "latest_visible_date": "2026-10-01",
-      "elapsed_ms": 1247,
+      "elapsed_ms": 3027,
       "error": ""
     },
     {
@@ -523,7 +523,7 @@
       "candidate_links": 11,
       "keyword_hits": 12,
       "latest_visible_date": null,
-      "elapsed_ms": 874,
+      "elapsed_ms": 824,
       "error": ""
     },
     {
@@ -538,7 +538,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 367,
+      "elapsed_ms": 1020,
       "error": "request failed"
     },
     {
@@ -553,7 +553,7 @@
       "candidate_links": 2,
       "keyword_hits": 2,
       "latest_visible_date": null,
-      "elapsed_ms": 1072,
+      "elapsed_ms": 1776,
       "error": ""
     },
     {
@@ -568,7 +568,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 146,
+      "elapsed_ms": 437,
       "error": "request failed"
     },
     {
@@ -583,7 +583,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 14134,
+      "elapsed_ms": 14611,
       "error": "request failed"
     },
     {
@@ -598,7 +598,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 305,
+      "elapsed_ms": 225,
       "error": ""
     },
     {
@@ -611,9 +611,9 @@
       "http_status": 200,
       "robots": "allowed",
       "candidate_links": 20,
-      "keyword_hits": 39,
+      "keyword_hits": 35,
       "latest_visible_date": null,
-      "elapsed_ms": 605,
+      "elapsed_ms": 1371,
       "error": ""
     },
     {
@@ -628,7 +628,7 @@
       "candidate_links": 18,
       "keyword_hits": 20,
       "latest_visible_date": null,
-      "elapsed_ms": 130,
+      "elapsed_ms": 325,
       "error": ""
     },
     {
@@ -641,9 +641,9 @@
       "http_status": 200,
       "robots": "allowed",
       "candidate_links": 20,
-      "keyword_hits": 59,
+      "keyword_hits": 60,
       "latest_visible_date": null,
-      "elapsed_ms": 301,
+      "elapsed_ms": 349,
       "error": ""
     },
     {
@@ -658,7 +658,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 4352,
+      "elapsed_ms": 3820,
       "error": ""
     },
     {
@@ -673,7 +673,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 1754,
+      "elapsed_ms": 2343,
       "error": ""
     },
     {
@@ -682,14 +682,14 @@
       "category": "market",
       "source_level": "S",
       "url": "https://www.evcipa.org.cn/",
-      "status": "empty",
-      "http_status": 200,
+      "status": "http_failed",
+      "http_status": null,
       "robots": "allowed",
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 4045,
-      "error": ""
+      "elapsed_ms": 113582,
+      "error": "request failed"
     },
     {
       "source_id": "gacc_stats",
@@ -703,7 +703,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 2321,
+      "elapsed_ms": 3396,
       "error": "request failed"
     },
     {
@@ -716,9 +716,9 @@
       "http_status": 200,
       "robots": "allowed",
       "candidate_links": 20,
-      "keyword_hits": 77,
+      "keyword_hits": 102,
       "latest_visible_date": null,
-      "elapsed_ms": 720,
+      "elapsed_ms": 2083,
       "error": ""
     },
     {
@@ -733,7 +733,7 @@
       "candidate_links": 20,
       "keyword_hits": 20,
       "latest_visible_date": null,
-      "elapsed_ms": 3009,
+      "elapsed_ms": 1447,
       "error": ""
     },
     {
@@ -748,7 +748,7 @@
       "candidate_links": 11,
       "keyword_hits": 15,
       "latest_visible_date": null,
-      "elapsed_ms": 1320,
+      "elapsed_ms": 1227,
       "error": ""
     },
     {
@@ -763,7 +763,7 @@
       "candidate_links": 9,
       "keyword_hits": 10,
       "latest_visible_date": null,
-      "elapsed_ms": 2945,
+      "elapsed_ms": 2364,
       "error": ""
     },
     {
@@ -778,7 +778,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 2232,
+      "elapsed_ms": 2170,
       "error": ""
     },
     {
@@ -790,10 +790,10 @@
       "status": "ok",
       "http_status": 200,
       "robots": "allowed",
-      "candidate_links": 13,
-      "keyword_hits": 19,
+      "candidate_links": 10,
+      "keyword_hits": 14,
       "latest_visible_date": "2026-09-04",
-      "elapsed_ms": 3312,
+      "elapsed_ms": 2689,
       "error": ""
     },
     {
@@ -808,7 +808,7 @@
       "candidate_links": 19,
       "keyword_hits": 39,
       "latest_visible_date": null,
-      "elapsed_ms": 8253,
+      "elapsed_ms": 1743,
       "error": ""
     },
     {
@@ -820,10 +820,10 @@
       "status": "ok",
       "http_status": 200,
       "robots": "allowed",
-      "candidate_links": 12,
-      "keyword_hits": 12,
-      "latest_visible_date": null,
-      "elapsed_ms": 2561,
+      "candidate_links": 13,
+      "keyword_hits": 13,
+      "latest_visible_date": "2026-09-04",
+      "elapsed_ms": 1932,
       "error": ""
     },
     {
@@ -838,7 +838,7 @@
       "candidate_links": 7,
       "keyword_hits": 8,
       "latest_visible_date": null,
-      "elapsed_ms": 1274,
+      "elapsed_ms": 1964,
       "error": ""
     },
     {
@@ -853,7 +853,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 2787,
+      "elapsed_ms": 2009,
       "error": ""
     },
     {
@@ -862,14 +862,14 @@
       "category": "competitor",
       "source_level": "S",
       "url": "https://www.geelyauto.com.hk/category/press-release/",
-      "status": "http_failed",
-      "http_status": null,
+      "status": "ok",
+      "http_status": 200,
       "robots": "allowed",
-      "candidate_links": 0,
-      "keyword_hits": 0,
+      "candidate_links": 12,
+      "keyword_hits": 25,
       "latest_visible_date": null,
-      "elapsed_ms": 15902,
-      "error": "request failed"
+      "elapsed_ms": 5022,
+      "error": ""
     },
     {
       "source_id": "seres_sales_report",
@@ -883,7 +883,7 @@
       "candidate_links": 12,
       "keyword_hits": 22,
       "latest_visible_date": "2026-07-06",
-      "elapsed_ms": 1336,
+      "elapsed_ms": 1192,
       "error": ""
     },
     {
@@ -898,7 +898,7 @@
       "candidate_links": 20,
       "keyword_hits": 452,
       "latest_visible_date": null,
-      "elapsed_ms": 1452,
+      "elapsed_ms": 2082,
       "error": ""
     },
     {
@@ -913,7 +913,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 292,
+      "elapsed_ms": 201,
       "error": "request failed"
     },
     {
@@ -928,7 +928,7 @@
       "candidate_links": 0,
       "keyword_hits": 0,
       "latest_visible_date": null,
-      "elapsed_ms": 3836,
+      "elapsed_ms": 2604,
       "error": ""
     }
   ]
